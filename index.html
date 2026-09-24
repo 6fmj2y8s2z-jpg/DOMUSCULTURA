@@ -9,63 +9,67 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=DM+Sans:opsz,wght@9..40,400;9..40,500;9..40,700&family=Playfair+Display:ital,wght@0,500;0,600;1,500&display=swap" rel="stylesheet" />
     <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="home-refinement.css" />
   </head>
-  <body>
-    <header class="site-header">
-      <a class="logo" href="#top" aria-label="Domus Cultura home">DOMUS<br />CULTURA</a>
-      <button class="menu-toggle" aria-label="Open navigation" aria-expanded="false"><span></span><span></span></button>
+  <body class="refined-home">
+    <header class="dc-header">
+      <a class="dc-logo" href="#top" aria-label="Domus Cultura home">DOMUS<br />CULTURA</a>
       <nav aria-label="Main navigation">
-        <a href="shop.html">Shop</a><a href="#studio">Studio</a><a href="#practice">Practice</a><a href="#contact">Contact</a>
+        <a href="shop.html#radio">Sounds</a>
+        <a href="shop.html#collections">Art Shop</a>
+        <a href="shop.html#journal">Art Journal</a>
+        <a href="#events">Events</a>
+        <a href="#art">Art</a>
       </nav>
     </header>
 
     <main id="top">
-      <section class="hero" aria-labelledby="hero-title">
-        <p class="eyebrow">Creative culture office · Switzerland</p>
-        <h1 id="hero-title">A home for<br /><em>culture in motion.</em></h1>
-        <div class="hero-bottom">
-          <p>Domus Cultura connects art, image, sound and strategy to make ideas visible in the world.</p>
-          <a class="circle-link" href="#studio" aria-label="Discover Domus Cultura">↓</a>
+      <section class="dc-hero" aria-labelledby="hero-title">
+        <div class="dc-hero-copy">
+          <p class="dc-label">Independent platform for art, architecture, image and sound · Switzerland</p>
+          <h1 id="hero-title">DOMUS<br />CULTURA</h1>
+          <div class="dc-intro"><p>A cultural house in motion.</p><p>Photography by Ben Taleb<br />Sound by Juice+</p></div>
         </div>
-        <div class="orb orb-one"></div><div class="orb orb-two"></div><div class="grid-mark"></div>
+        <figure class="dc-hero-image"><img src="assets/portfolio/station-perspective.jpeg" alt="Black-and-white architectural view inside a contemporary railway station, photographed by Ben Taleb" /><figcaption>Good Morning World — Ben Taleb</figcaption></figure>
       </section>
 
-      <section class="statement" id="studio">
-        <p class="section-number">01 — The studio</p>
-        <div>
-          <h2>We create cultural <em>presence.</em></h2>
-          <p class="lead">Domus Cultura is a multidisciplinary creative studio based in Switzerland. We shape identities, images, encounters and cultural programmes for artists, communities, brands and institutions.</p>
-        </div>
+      <section class="dc-statement">
+        <p class="dc-index">01 / Position</p>
+        <h2>Culture is a space<br />we build <em>together.</em></h2>
+        <p>Domus Cultura brings contemporary art into everyday life through editions, encounters, field notes and sound. It is a platform for looking closely, listening deeply and making new work possible.</p>
       </section>
 
-      <section class="practice" id="practice">
-        <p class="section-number">02 — What we do</p>
-        <div class="services">
-          <article><span>01</span><h3>Creative direction</h3><p>Visual identities, campaigns and clear creative worlds for people and projects with something to say.</p></article>
-          <article><span>02</span><h3>Image &amp; film</h3><p>Photography, moving image and visual storytelling that give a project its own lasting language.</p></article>
-          <article><span>03</span><h3>Art &amp; curation</h3><p>Artist representation, art advisory, exhibitions and collections built with care and conviction.</p></article>
-          <article><span>04</span><h3>Events &amp; sound</h3><p>Gatherings, DJ sets and cultural formats that turn a space into a shared experience.</p></article>
-          <article><span>05</span><h3>Strategy</h3><p>Practical creative and cultural strategy for founders, institutions and ambitious local initiatives.</p></article>
+      <section class="dc-art" id="art">
+        <div class="dc-section-head"><p class="dc-index">02 / Art</p><h2>Ben Taleb<br /><em>Good Morning World</em></h2><p>Architecture, public space and the quiet theatre of the city.</p></div>
+        <div class="dc-gallery">
+          <figure class="dc-work dc-work-large"><img src="assets/portfolio/courtyard-up.jpeg" alt="Upward black-and-white architectural study by Ben Taleb" /><figcaption><span>Untitled, Good Morning World</span><span>Fine-art photograph</span></figcaption></figure>
+          <figure class="dc-work"><img src="assets/portfolio/reflection-architecture.png" alt="Black-and-white architectural reflection by Ben Taleb" /><figcaption><span>Reflection Study</span><span>Fine-art photograph</span></figcaption></figure>
+          <figure class="dc-work"><img src="assets/portfolio/city-puddles.jpeg" alt="Black-and-white city reflections in puddles by Ben Taleb" /><figcaption><span>After Rain</span><span>Fine-art photograph</span></figcaption></figure>
         </div>
+        <a class="dc-text-link" href="shop.html#edition">View the first editions ↗</a>
       </section>
 
-      <section class="manifesto">
-        <div class="manifesto-art" aria-hidden="true"><span>DC</span></div>
-        <div class="manifesto-copy">
-          <p class="section-number">03 — Our point of view</p>
-          <h2>Culture is not decoration.<br />It is a way to <em>move people.</em></h2>
-          <p>We work at the meeting point of art and action. From a first idea to a room full of people, our practice gives cultural projects the attention, form and momentum they deserve.</p>
-        </div>
+      <section class="dc-red-study">
+        <figure><img src="assets/portfolio/red-profile.jpeg" alt="Red profile portrait from the Good Morning World portfolio by Ben Taleb" /></figure>
+        <div><p class="dc-index">03 / Image</p><h2>Observe first.<br /><em>Then frame.</em></h2><p>The photographic practice moves between constructed space and human presence—between distance, rhythm and direct encounter.</p></div>
       </section>
 
-      <section class="contact" id="contact">
-        <p class="eyebrow">For collaborations, commissions and conversations</p>
-        <h2>Let’s make<br /><em>something matter.</em></h2>
-        <a class="email" href="mailto:hello@domuscultura.ch">hello@domuscultura.ch <span>↗</span></a>
+      <section class="dc-events" id="events">
+        <div class="dc-section-head"><p class="dc-index">04 / Events</p><h2>Gatherings with<br /><em>a point of view.</em></h2></div>
+        <div class="dc-event-row"><span>Coming soon</span><h3>Domus Cultura — Opening Session</h3><p>Art, conversation and a live selection by Juice+.</p><a href="mailto:hello@domuscultura.ch?subject=Domus%20Cultura%20Events">Register interest ↗</a></div>
+        <div class="dc-event-row"><span>In development</span><h3>Artist &amp; Atelier Visits</h3><p>Small-format encounters with artists and their working spaces.</p><a href="mailto:hello@domuscultura.ch?subject=Atelier%20Visits">Join the list ↗</a></div>
       </section>
+
+      <section class="dc-portals">
+        <a href="shop.html#radio"><span>Sounds</span><strong>Weekly selections by Juice+</strong><em>Listen ↗</em></a>
+        <a href="shop.html#journal"><span>Art Journal</span><strong>Visits, conversations and field notes</strong><em>Read ↗</em></a>
+        <a href="shop.html#collections"><span>Art Shop</span><strong>Limited editions and cultural objects</strong><em>Collect ↗</em></a>
+      </section>
+
+      <section class="dc-contact" id="contact"><p class="dc-index">05 / Contact</p><h2>Ideas, commissions<br />and collaborations.</h2><a href="mailto:hello@domuscultura.ch">hello@domuscultura.ch ↗</a></section>
     </main>
 
-    <footer><span>© <span id="year"></span> Domus Cultura</span><span>Switzerland · Culture in motion</span><a href="#top">Back to top ↑</a></footer>
+    <footer class="dc-footer"><a class="dc-logo" href="#top">DOMUS<br />CULTURA</a><span>Ben Taleb — Image<br />Juice+ — Sound</span><span>Switzerland · Worldwide</span><span>© <span id="year"></span></span></footer>
     <script src="script.js"></script>
   </body>
 </html>
