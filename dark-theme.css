@@ -229,6 +229,20 @@
   text-transform: uppercase;
 }
 
+.shop-page .notes {
+  grid-template-columns: repeat(12, minmax(0, 1fr));
+  row-gap: 58px;
+}
+
+.shop-page .notes article {
+  grid-column: span 4;
+  min-width: 0;
+}
+
+.shop-page .notes article:nth-child(n + 4) {
+  grid-column: span 3;
+}
+
 .shop-page .newsletter {
   color: var(--ink);
 }
@@ -284,5 +298,29 @@
   .artist-open-call > a {
     justify-self: start;
     margin-top: 12px;
+  }
+
+  .shop-page .notes article,
+  .shop-page .notes article:nth-child(n + 4) {
+    grid-column: 1 / -1;
+  }
+
+  .shop-page .notes {
+    grid-template-columns: minmax(0, 1fr);
+  }
+
+  .shop-page .notes article,
+  .shop-page .notes article > a,
+  .shop-page .notes .note-photo {
+    width: 100%;
+    max-width: 100%;
+  }
+
+  .shop-page .notes article > a {
+    display: block;
+  }
+
+  .shop-page .notes h3 {
+    overflow-wrap: anywhere;
   }
 }

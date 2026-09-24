@@ -109,6 +109,30 @@
   Object.assign(translations.fr, { 'Collect the': 'Collectionnez' });
   Object.assign(translations.de, { 'Collect the': 'Sammeln Sie', 'world we see.': 'die Welt, die wir sehen.', 'image.': 'das Bild.' });
   Object.assign(translations.es, { 'Collect the': 'Colecciona', 'world we see.': 'el mundo que vemos.', 'image.': 'la imagen.' });
+  Object.assign(translations.fr, {
+    'Exhibition detail · Art': 'Détail d’exposition · Art', 'People · Public space': 'Personnes · Espace public', 'Street art · Found work': 'Art urbain · Œuvre trouvée',
+    'Sound / Public sculpture': 'Son / Sculpture publique', 'City detail / Petals': 'Détail urbain / Pétales', 'Architecture / Structure': 'Architecture / Structure',
+    'Public sculpture · Sound': 'Sculpture publique · Son', 'Instruments become architecture': 'Les instruments deviennent architecture', 'Sound and civic space meet in a monumental street-side form.': 'Le son et l’espace civique se rencontrent dans une forme monumentale installée dans la rue.',
+    'Night culture · People': 'Culture nocturne · Personnes', 'After dark': 'À la nuit tombée', 'Human silhouettes, light and atmosphere from a shared nocturnal space.': 'Silhouettes humaines, lumière et atmosphère dans un espace nocturne partagé.',
+    'City detail · Colour': 'Détail urbain · Couleur', 'Petals between stones': 'Des pétales entre les pierres', 'A small accidental composition where colour interrupts the street.': 'Une petite composition fortuite où la couleur interrompt la rue.',
+    'Architecture · Urban systems': 'Architecture · Systèmes urbains', 'Systems and rhythm': 'Systèmes et rythme', 'Concrete, steel and repetition read as an abstract city drawing.': 'Le béton, l’acier et la répétition se lisent comme un dessin urbain abstrait.'
+  });
+  Object.assign(translations.de, {
+    'Exhibition detail · Art': 'Ausstellungsdetail · Kunst', 'People · Public space': 'Menschen · Öffentlicher Raum', 'Street art · Found work': 'Street Art · Fundstück',
+    'Sound / Public sculpture': 'Klang / Öffentliche Skulptur', 'City detail / Petals': 'Stadtdetail / Blütenblätter', 'Architecture / Structure': 'Architektur / Struktur',
+    'Public sculpture · Sound': 'Öffentliche Skulptur · Klang', 'Instruments become architecture': 'Instrumente werden Architektur', 'Sound and civic space meet in a monumental street-side form.': 'Klang und öffentlicher Raum begegnen sich in einer monumentalen Form im Stadtraum.',
+    'Night culture · People': 'Nachtkultur · Menschen', 'After dark': 'Nach Einbruch der Dunkelheit', 'Human silhouettes, light and atmosphere from a shared nocturnal space.': 'Menschliche Silhouetten, Licht und Atmosphäre in einem gemeinsam erlebten nächtlichen Raum.',
+    'City detail · Colour': 'Stadtdetail · Farbe', 'Petals between stones': 'Blütenblätter zwischen Steinen', 'A small accidental composition where colour interrupts the street.': 'Eine kleine zufällige Komposition, in der Farbe die Straße unterbricht.',
+    'Architecture · Urban systems': 'Architektur · Urbane Systeme', 'Systems and rhythm': 'Systeme und Rhythmus', 'Concrete, steel and repetition read as an abstract city drawing.': 'Beton, Stahl und Wiederholung lesen sich wie eine abstrakte Stadtzeichnung.'
+  });
+  Object.assign(translations.es, {
+    'Exhibition detail · Art': 'Detalle de exposición · Arte', 'People · Public space': 'Personas · Espacio público', 'Street art · Found work': 'Arte urbano · Obra encontrada',
+    'Sound / Public sculpture': 'Sonido / Escultura pública', 'City detail / Petals': 'Detalle urbano / Pétalos', 'Architecture / Structure': 'Arquitectura / Estructura',
+    'Public sculpture · Sound': 'Escultura pública · Sonido', 'Instruments become architecture': 'Los instrumentos se vuelven arquitectura', 'Sound and civic space meet in a monumental street-side form.': 'El sonido y el espacio cívico se encuentran en una forma monumental instalada en la calle.',
+    'Night culture · People': 'Cultura nocturna · Personas', 'After dark': 'Al caer la noche', 'Human silhouettes, light and atmosphere from a shared nocturnal space.': 'Siluetas humanas, luz y atmósfera en un espacio nocturno compartido.',
+    'City detail · Colour': 'Detalle urbano · Color', 'Petals between stones': 'Pétalos entre las piedras', 'A small accidental composition where colour interrupts the street.': 'Una pequeña composición accidental donde el color interrumpe la calle.',
+    'Architecture · Urban systems': 'Arquitectura · Sistemas urbanos', 'Systems and rhythm': 'Sistemas y ritmo', 'Concrete, steel and repetition read as an abstract city drawing.': 'El hormigón, el acero y la repetición se leen como un dibujo urbano abstracto.'
+  });
 
   const ignoredParents = new Set(['SCRIPT', 'STYLE', 'NOSCRIPT']);
   const textNodes = [];
