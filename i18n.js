@@ -134,6 +134,37 @@
     'Architecture · Urban systems': 'Arquitectura · Sistemas urbanos', 'Systems and rhythm': 'Sistemas y ritmo', 'Concrete, steel and repetition read as an abstract city drawing.': 'El hormigón, el acero y la repetición se leen como un dibujo urbano abstracto.'
   });
 
+  Object.assign(translations.fr, {
+    'Cart': 'Panier', 'Shopify preview / Test mode': 'Aperçu Shopify / Mode test', 'Select an option': 'Choisir une option',
+    'Size S · Black': 'Taille S · Noir', 'Size M · Black': 'Taille M · Noir', 'Size L · Black': 'Taille L · Noir', 'Size XL · Black': 'Taille XL · Noir',
+    'Add to mock cart ↗': 'Ajouter au panier test ↗', 'This preview does not place an order.': 'Cet aperçu ne passe aucune commande.',
+    'Edition Small · CHF 180': 'Édition petit format · CHF 180', 'Edition Medium · CHF 380': 'Édition moyen format · CHF 380', 'Edition Large · CHF 700': 'Édition grand format · CHF 700',
+    'Edition of 100 across all sizes · checkout disabled in preview.': 'Édition de 100 tous formats confondus · paiement désactivé dans l’aperçu.',
+    'Shopify storefront mock-up': 'Maquette de boutique Shopify', 'Mock cart': 'Panier test', 'Your cart is empty.': 'Votre panier est vide.',
+    'Subtotal': 'Sous-total', 'Checkout activates after the Shopify store is connected.': 'Le paiement sera activé après la connexion de la boutique Shopify.',
+    'Close cart': 'Fermer le panier', 'Remove item': 'Retirer l’article'
+  });
+  Object.assign(translations.de, {
+    'Cart': 'Warenkorb', 'Shopify preview / Test mode': 'Shopify-Vorschau / Testmodus', 'Select an option': 'Option auswählen',
+    'Size S · Black': 'Größe S · Schwarz', 'Size M · Black': 'Größe M · Schwarz', 'Size L · Black': 'Größe L · Schwarz', 'Size XL · Black': 'Größe XL · Schwarz',
+    'Add to mock cart ↗': 'Zum Test-Warenkorb ↗', 'This preview does not place an order.': 'Diese Vorschau löst keine Bestellung aus.',
+    'Edition Small · CHF 180': 'Edition Klein · CHF 180', 'Edition Medium · CHF 380': 'Edition Mittel · CHF 380', 'Edition Large · CHF 700': 'Edition Groß · CHF 700',
+    'Edition of 100 across all sizes · checkout disabled in preview.': 'Auflage von 100 über alle Formate · Kasse in der Vorschau deaktiviert.',
+    'Shopify storefront mock-up': 'Shopify-Shop-Mock-up', 'Mock cart': 'Test-Warenkorb', 'Your cart is empty.': 'Ihr Warenkorb ist leer.',
+    'Subtotal': 'Zwischensumme', 'Checkout activates after the Shopify store is connected.': 'Die Kasse wird nach Verbindung des Shopify-Shops aktiviert.',
+    'Close cart': 'Warenkorb schließen', 'Remove item': 'Artikel entfernen'
+  });
+  Object.assign(translations.es, {
+    'Cart': 'Carrito', 'Shopify preview / Test mode': 'Vista Shopify / Modo de prueba', 'Select an option': 'Elige una opción',
+    'Size S · Black': 'Talla S · Negro', 'Size M · Black': 'Talla M · Negro', 'Size L · Black': 'Talla L · Negro', 'Size XL · Black': 'Talla XL · Negro',
+    'Add to mock cart ↗': 'Añadir al carrito de prueba ↗', 'This preview does not place an order.': 'Esta vista previa no realiza ningún pedido.',
+    'Edition Small · CHF 180': 'Edición pequeña · CHF 180', 'Edition Medium · CHF 380': 'Edición mediana · CHF 380', 'Edition Large · CHF 700': 'Edición grande · CHF 700',
+    'Edition of 100 across all sizes · checkout disabled in preview.': 'Edición de 100 entre todos los tamaños · pago desactivado en la vista previa.',
+    'Shopify storefront mock-up': 'Maqueta de tienda Shopify', 'Mock cart': 'Carrito de prueba', 'Your cart is empty.': 'Tu carrito está vacío.',
+    'Subtotal': 'Subtotal', 'Checkout activates after the Shopify store is connected.': 'El pago se activará tras conectar la tienda Shopify.',
+    'Close cart': 'Cerrar carrito', 'Remove item': 'Eliminar artículo'
+  });
+
   const ignoredParents = new Set(['SCRIPT', 'STYLE', 'NOSCRIPT']);
   const textNodes = [];
   const walker = document.createTreeWalker(document.body, NodeFilter.SHOW_TEXT);
@@ -169,6 +200,7 @@
       button.setAttribute('aria-pressed', String(active));
     });
     try { localStorage.setItem('domus-language', selected); } catch (_) {}
+    window.dispatchEvent(new CustomEvent('domus-language-change', { detail: { language: selected } }));
   }
 
   let initial = new URLSearchParams(window.location.search).get('lang');
