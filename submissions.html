@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <meta name="description" content="Submit an artist project for editorial consideration, studio visits and future Domus Cultura collaborations." />
+  <meta name="theme-color" content="#11110f" />
+  <title>Artist Submissions — Domus Cultura</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=DM+Sans:opsz,wght@9..40,400;9..40,500;9..40,700&family=Playfair+Display:ital,wght@0,500;1,500&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="submissions.css" />
+  <link rel="stylesheet" href="dark-theme.css" />
+</head>
+<body class="submissions-page">
+  <div class="submission-notice">Open call — artist submissions</div>
+  <header class="submission-header"><a class="submission-logo" href="index.html">DOMUS<br />CULTURA</a><div class="submission-tools"><a href="index.html">Back to Domus ↗</a><div class="language-switcher" data-language-switcher aria-label="Language"><button type="button" data-lang="en">EN</button><button type="button" data-lang="fr">FR</button><button type="button" data-lang="de">DE</button><button type="button" data-lang="es">ES</button></div></div></header>
+
+  <main>
+    <section class="submission-hero"><p class="submission-index">Artist submissions / Rolling programme</p><h1>Bring your work<br />into the <em>house.</em></h1><div><p>Domus Cultura welcomes considered proposals from artists, photographers, writers, sound practitioners and independent cultural projects.</p><p>Selected practices may be featured through an interview, studio visit, journal story, event, collaboration or limited-edition proposal.</p></div></section>
+
+    <section class="submission-criteria"><div><p class="submission-index">What we look for</p><h2>A clear practice.<br /><em>A real point of view.</em></h2></div><div class="criteria-grid"><article><span>01</span><h3>Contemporary relevance</h3><p>Work that speaks to life now—socially, materially or imaginatively.</p></article><article><span>02</span><h3>Visual strength</h3><p>A coherent body of work with images suitable for thoughtful editorial presentation.</p></article><article><span>03</span><h3>Human context</h3><p>A process, place or lived experience worth opening to a wider public.</p></article><article><span>04</span><h3>Mutual fit</h3><p>A meaningful connection to art, architecture, photography, sound or public culture.</p></article></div></section>
+
+    <section class="submission-form-section" id="submit"><div class="submission-form-intro"><p class="submission-index">Submit your practice</p><h2>Tell us what<br /><em>we should see.</em></h2><p>Send links rather than large attachments. Submissions are reviewed quarterly. We will contact you when there is a genuine editorial or collaborative fit.</p></div><form id="artist-submission-form"><label>Artist or collective name<input name="artist" type="text" required /></label><label>Email address<input name="email" type="email" required /></label><label>City and country<input name="location" type="text" required /></label><label>Website or Instagram<input name="social" type="url" placeholder="https://" required /></label><label>Primary practice<select name="practice" required><option value="">Choose one</option><option>Visual art</option><option>Photography</option><option>Street art</option><option>Sound / music</option><option>Architecture / design</option><option>Writing / publishing</option><option>Multidisciplinary</option></select></label><label>Project or body of work<input name="project" type="text" required /></label><label class="form-wide">Portfolio link<input name="portfolio" type="url" placeholder="https://" required /></label><label class="form-wide">About the work<textarea name="statement" rows="6" required></textarea></label><label class="form-wide">Why Domus Cultura?<textarea name="fit" rows="4" required></textarea></label><label class="form-wide consent"><input name="rights" type="checkbox" required /><span>I confirm that I own or control the rights to the submitted work and allow Domus Cultura to review the linked material. No rights are transferred by this submission.</span></label><div class="form-wide submission-action"><button type="submit">Prepare email submission ↗</button><p id="submission-status" role="status">Your email application will open for your review before anything is sent.</p></div></form></section>
+  </main>
+
+  <footer class="submission-footer"><a class="submission-logo" href="index.html">DOMUS<br />CULTURA</a><span>Artist submissions<br />Reviewed quarterly</span><a href="https://www.instagram.com/domuscultura/" target="_blank" rel="noopener noreferrer">@domuscultura ↗</a><span>© 2026</span></footer>
+  <script src="submissions.js"></script>
+  <script src="i18n.js"></script>
+</body>
+</html>
