@@ -4,8 +4,10 @@ Operating targets, not guarantees. Prioritise cash flow, proof of demand and a r
 
 ## Recommended stack
 
-- Shopify in CHF for products, checkout, payments, inventory and blog.
-- Prodigi for Hahnemühle Photo Rag / German Etching print-on-demand.
+- Shopify in CHF for merchandise, checkout, payments, inventory and the editorial journal.
+- Hahnemühle My Art Registry 2.0 for certified, limited Ben Taleb fine-art editions: print-on-demand through certified studios, edition registry, certificate and matching hologram.
+- Link each Ben Taleb product page to its verified My Art Registry record; keep edition numbering consistent across both systems.
+- Prodigi remains the fallback/comparison supplier for Hahnemühle Photo Rag / German Etching if My Art Registry cannot support a required country, format or fulfilment workflow.
 - Compare physical samples from Prodigi and Printful for apparel and objects.
 - Three print sizes; 100 copies per image across all sizes; numbered certificate.
 - SoundCloud embeds for a weekly 45–60 minute Juice+ programme.
@@ -20,13 +22,13 @@ Operating targets, not guarantees. Prioritise cash flow, proof of demand and a r
 | 3 | Export colour-managed masters and create a metadata sheet. |
 | 4 | Confirm three sizes and the edition-of-100 rule. |
 | 5 | Create Shopify; reserve naming; set CHF as currency. |
-| 6 | Create Prodigi and Printful accounts; order sample packs. |
+| 6 | Create the Hahnemühle ID and My Art Registry artist account; order the official Certificate of Authenticity Kit and compare a Prodigi/Printful sample pack for non-art products. |
 | 7 | Write Edition 001 story and product copy. |
 | 8 | Mock up Edition 001 in a real interior. |
 | 9 | Draft shipping, returns, privacy, terms and edition policies for Swiss review. |
 | 10 | Set prices from landed cost, fees, taxes and target margin. |
-| 11 | Build Edition 001 as a Shopify draft with three variants. |
-| 12 | Design a numbered certificate and packaging insert. |
+| 11 | Register Edition 001 in My Art Registry and mirror its three formats on the Domus Cultura storefront. |
+| 12 | Complete and sign the official Hahnemühle certificate; pair its numbered hologram with the artwork and prepare the Domus Cultura packaging insert. |
 | 13 | Select one shirt, one tote and one cap for testing. |
 | 14 | Order every launch product as a physical sample. |
 | 15 | Publish the founder story: why Domus Cultura exists. |
