@@ -9,7 +9,7 @@ Operating targets, not guarantees. Prioritise cash flow, proof of demand and a r
 - Link each Ben Taleb product page to its verified My Art Registry record; keep edition numbering consistent across both systems.
 - Prodigi remains the fallback/comparison supplier for Hahnemühle Photo Rag / German Etching if My Art Registry cannot support a required country, format or fulfilment workflow.
 - Compare physical samples from Prodigi and Printful for apparel and objects.
-- Three unframed print sizes; 100 copies maximum per image across all sizes; numbered certificate.
+- Three unframed print sizes on museum-grade Hahnemühle paper; 100 copies maximum per image across all sizes; numbered certificate.
 - Launch price bands: small CHF 150–200, medium CHF 300–450, large CHF 600–800.
 - SoundCloud embeds for a weekly 45–60 minute Juice+ programme.
 - Instagram for discovery, email for ownership, events for trust, store for conversion.
