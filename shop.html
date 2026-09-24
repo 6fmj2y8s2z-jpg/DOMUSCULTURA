@@ -22,9 +22,28 @@
 
     <section class="collections" id="collections"><div class="heading"><div><p class="num">01 — Shop the first drop</p><h2>Collect the<br /><em>world we see.</em></h2></div><p>Three focused collections, produced responsibly and released in considered quantities.</p></div>
       <div class="cards">
-        <article><div class="visual portfolio-visual"><img src="assets/portfolio/courtyard-up.jpeg" alt="Black-and-white architectural photograph by Ben Taleb" /><small>BEN TALEB / EDITION</small></div><div class="line"><div><span>Fine-art photography</span><h3>Ben Taleb Editions</h3></div><b>From CHF 150</b></div><p>Unframed black-and-white photographs on museum-grade Hahnemühle paper · three sizes · edition of 100.</p><a href="#edition">Discover editions ↗</a></article>
-        <article><div class="visual merch"><strong>DC<br />01</strong><small>WEAR CULTURE</small></div><div class="line"><div><span>Objects &amp; apparel</span><h3>Domus Essentials</h3></div><b>From CHF 25</b></div><p>T-shirts, sweatshirts, caps, mugs, totes and postcard sets—made only after purchase, with no inventory.</p><a href="#newsletter">Get drop access ↗</a></article>
+        <article><button class="product-card-trigger" type="button" data-product="print" aria-controls="product-explorer"><div class="visual portfolio-visual"><img src="assets/portfolio/courtyard-up.jpeg" alt="Black-and-white architectural photograph by Ben Taleb" /><small>BEN TALEB / EDITION</small></div><div class="line"><div><span>Fine-art photography</span><h3>Ben Taleb Editions</h3></div><b>From CHF 150</b></div><p>Unframed black-and-white photographs on museum-grade Hahnemühle paper · three sizes · edition of 100.</p><span class="card-action">See three views ↗</span></button></article>
+        <article><button class="product-card-trigger" type="button" data-product="merch" aria-controls="product-explorer"><div class="visual merch"><strong>DC<br />01</strong><small>WEAR CULTURE</small></div><div class="line"><div><span>Objects &amp; apparel</span><h3>Domus Essentials</h3></div><b>From CHF 25</b></div><p>T-shirts, sweatshirts, caps, mugs, totes and postcard sets—made only after purchase, with no inventory.</p><span class="card-action">See three views ↗</span></button></article>
         <article><div class="visual collab"><strong>DC ×</strong><small>ARTIST COLLABORATIONS</small></div><div class="line"><div><span>Guest artists</span><h3>Domus Collaborations</h3></div><b>Limited</b></div><p>Small-run editions made with invited artists across image, sound and material.</p><a href="mailto:hello@domuscultura.ch">Propose a collaboration ↗</a></article>
+      </div>
+    </section>
+
+    <section class="product-explorer" id="product-explorer" aria-label="Product viewer">
+      <div class="product-explorer-head"><p class="num">Product viewer — Object study</p><p>Click a view to inspect the front, reverse and material detail before ordering.</p></div>
+      <div class="product-explorer-grid">
+        <div class="product-stage" data-gallery-stage>
+          <figure class="product-view is-active" data-product-panel="merch" data-view="front"><div class="tee-mockup tee-front"><span>DOMUS<br />CULTURA</span></div><figcaption>Front / heavyweight organic cotton</figcaption></figure>
+          <figure class="product-view" data-product-panel="merch" data-view="back" hidden><div class="tee-mockup tee-back"><span>DC<br />01</span><small>CULTURE IN MOTION · LAUSANNE</small></div><figcaption>Reverse / numbered first drop</figcaption></figure>
+          <figure class="product-view" data-product-panel="merch" data-view="detail" hidden><div class="tee-detail"><span>DOMUS CULTURA</span><i>Organic cotton · printed on demand</i></div><figcaption>Detail / collar and print texture</figcaption></figure>
+          <figure class="product-view" data-product-panel="print" data-view="image" hidden><div class="print-sheet"><img src="assets/portfolio/courtyard-up.jpeg" alt="Looking Up by Ben Taleb, full image view" /></div><figcaption>Full image / Looking Up, Ben Taleb</figcaption></figure>
+          <figure class="product-view" data-product-panel="print" data-view="paper" hidden><div class="paper-detail"><img src="assets/portfolio/courtyard-up.jpeg" alt="Close detail of Looking Up by Ben Taleb" /><span>Hahnemühle<br />Photo Rag<br />308 gsm</span></div><figcaption>Paper detail / natural-white cotton rag</figcaption></figure>
+          <figure class="product-view" data-product-panel="print" data-view="scale" hidden><div class="wall-view"><div class="wall-print"><img src="assets/portfolio/courtyard-up.jpeg" alt="Looking Up print shown to scale on a wall" /></div><span>Unframed print shown for scale</span></div><figcaption>Scale view / medium edition</figcaption></figure>
+        </div>
+        <div class="product-information">
+          <div class="product-copy is-active" data-product-copy="merch"><span>Domus Essentials / Drop 01</span><h2 id="product-title">Wear the<br /><em>house.</em></h2><p>Produced only when ordered. The launch garment will be sampled for fabric weight, print durability and fit before checkout opens.</p><div class="view-tabs" role="group" aria-label="Merchandise views"><button class="is-active" type="button" data-product="merch" data-view-target="front">01 Front</button><button type="button" data-product="merch" data-view-target="back">02 Reverse</button><button type="button" data-product="merch" data-view-target="detail">03 Detail</button></div><dl><div><dt>Production</dt><dd>On demand · Europe / Switzerland where available</dd></div><div><dt>Inventory</dt><dd>None</dd></div><div><dt>Launch price</dt><dd>Final after sample approval</dd></div></dl></div>
+          <div class="product-copy" data-product-copy="print" hidden><span>Ben Taleb / Good Morning World</span><h2>Collect the<br /><em>image.</em></h2><p>Unframed museum-grade giclée photograph. One shared edition of 100 across all three sizes, with an individually numbered certificate of authenticity.</p><div class="view-tabs" role="group" aria-label="Fine-art print views"><button class="is-active" type="button" data-product="print" data-view-target="image">01 Image</button><button type="button" data-product="print" data-view-target="paper">02 Paper</button><button type="button" data-product="print" data-view-target="scale">03 Scale</button></div><dl><div><dt>Paper</dt><dd>Hahnemühle Photo Rag · 308 gsm</dd></div><div><dt>Edition</dt><dd>100 total · all sizes combined</dd></div><div><dt>Format</dt><dd>Print only · supplied unframed</dd></div></dl></div>
+          <a class="button" href="#newsletter">Join the launch list ↗</a>
+        </div>
       </div>
     </section>
 
@@ -41,5 +60,6 @@
     <section class="newsletter" id="newsletter"><p class="num">Editions, events and sound — sent occasionally</p><h2>Enter the <em>house.</em></h2><form action="mailto:hello@domuscultura.ch" method="post" enctype="text/plain"><input name="email" type="email" placeholder="Email address" aria-label="Email address" required /><button>Join the list ↗</button></form><small>No noise. Early access to drops, pop-ups and new projects.</small></section>
   </main>
   <footer><a class="logo" href="index.html">DOMUS<br />CULTURA</a><div>Ben Taleb — Image<br />Juice+ — Sound<br />Switzerland — Worldwide</div><div><a href="https://www.instagram.com/domuscultura/">Instagram ↗</a><br /><a href="mailto:hello@domuscultura.ch">Email ↗</a></div><p>© 2026 Domus Cultura</p></footer>
+  <script src="shop.js"></script>
 </body>
 </html>

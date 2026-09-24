@@ -4,11 +4,12 @@ Operating targets, not guarantees. Prioritise cash flow, proof of demand and a r
 
 ## Recommended stack
 
-- Shopify in CHF for merchandise, checkout, payments, inventory and the editorial journal.
-- Hahnemühle My Art Registry 2.0 for certified, limited Ben Taleb fine-art editions: print-on-demand through certified studios, edition registry, certificate and matching hologram.
-- Link each Ben Taleb product page to its verified My Art Registry record; keep edition numbering consistent across both systems.
-- Prodigi remains the fallback/comparison supplier for Hahnemühle Photo Rag / German Etching if My Art Registry cannot support a required country, format or fulfilment workflow.
-- Compare physical samples from Prodigi and Printful for apparel and objects.
+- Keep the editorial site on Vercel and use Shopify in CHF as the commerce, checkout and payment back end.
+- Gelato is the first-choice merchandise fulfiller because its network includes Switzerland and EU production; Printful is the backup for products or branding options that test better there.
+- Hahnemühle My Art Registry 2.0 is the first-choice route for certified, limited Ben Taleb editions: on-demand certified-studio production, edition registry, certificate and matching hologram. Link the Domus product page to its verified purchase route unless Hahnemühle confirms an embedded option.
+- Prodigi is the direct-store fallback for Hahnemühle Photo Rag 308 gsm photography because it supports EU fulfilment and Shopify/API integration; do not use it for limited-edition direct shipping until the matching certificate/hologram workflow is contractually confirmed.
+- Link each Ben Taleb product page to its verified My Art Registry record; keep one edition counter shared across all three sizes.
+- Compare physical samples from Gelato, Printful and Prodigi before any public checkout opens.
 - Three unframed print sizes on museum-grade Hahnemühle paper; 100 copies maximum per image across all sizes; numbered certificate.
 - Launch price bands: small CHF 150–200, medium CHF 300–450, large CHF 600–800.
 - SoundCloud embeds for a weekly 45–60 minute Juice+ programme.
@@ -33,7 +34,7 @@ Operating targets, not guarantees. Prioritise cash flow, proof of demand and a r
 | 3 | Export colour-managed masters and create a metadata sheet. |
 | 4 | Confirm the exact dimensions for the three unframed sizes and document the edition-of-100-across-all-sizes rule. |
 | 5 | Create Shopify; reserve naming; set CHF as currency. |
-| 6 | Create the Hahnemühle ID and My Art Registry artist account; order the official Certificate of Authenticity Kit and compare a Prodigi/Printful sample pack for non-art products. |
+| 6 | Create the Hahnemühle ID and My Art Registry artist account; order the official Certificate of Authenticity Kit and open Gelato and Prodigi test accounts. |
 | 7 | Write Edition 001 story and product copy. |
 | 8 | Mock up Edition 001 in a real interior. |
 | 9 | Draft shipping, returns, privacy, terms and edition policies for Swiss review. |
@@ -41,7 +42,7 @@ Operating targets, not guarantees. Prioritise cash flow, proof of demand and a r
 | 11 | Register Edition 001 in My Art Registry and mirror its three formats on the Domus Cultura storefront. |
 | 12 | Complete and sign the official Hahnemühle certificate; pair its numbered hologram with the artwork and prepare the Domus Cultura packaging insert. |
 | 13 | Select one shirt, one tote and one cap for testing. |
-| 14 | Order every launch product as a physical sample. |
+| 14 | Order every launch product as a physical sample; compare one key garment with Printful if the Gelato sample is not excellent. |
 | 15 | Publish the founder story: why Domus Cultura exists. |
 | 16 | Produce the first gallery-visit article from the archive. |
 | 17 | Record Juice+ Episode 001 and make its cover. |
