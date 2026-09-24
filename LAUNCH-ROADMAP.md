@@ -9,7 +9,8 @@ Operating targets, not guarantees. Prioritise cash flow, proof of demand and a r
 - Link each Ben Taleb product page to its verified My Art Registry record; keep edition numbering consistent across both systems.
 - Prodigi remains the fallback/comparison supplier for Hahnemühle Photo Rag / German Etching if My Art Registry cannot support a required country, format or fulfilment workflow.
 - Compare physical samples from Prodigi and Printful for apparel and objects.
-- Three print sizes; 100 copies per image across all sizes; numbered certificate.
+- Three unframed print sizes; 100 copies maximum per image across all sizes; numbered certificate.
+- Launch price bands: small CHF 150–200, medium CHF 300–450, large CHF 600–800.
 - SoundCloud embeds for a weekly 45–60 minute Juice+ programme.
 - Instagram for discovery, email for ownership, events for trust, store for conversion.
 
@@ -30,7 +31,7 @@ Operating targets, not guarantees. Prioritise cash flow, proof of demand and a r
 | 1 | Finalise the one-sentence Domus Cultura positioning. |
 | 2 | Select 12 Ben Taleb photographs and mark three launch candidates. |
 | 3 | Export colour-managed masters and create a metadata sheet. |
-| 4 | Confirm three sizes and the edition-of-100 rule. |
+| 4 | Confirm the exact dimensions for the three unframed sizes and document the edition-of-100-across-all-sizes rule. |
 | 5 | Create Shopify; reserve naming; set CHF as currency. |
 | 6 | Create the Hahnemühle ID and My Art Registry artist account; order the official Certificate of Authenticity Kit and compare a Prodigi/Printful sample pack for non-art products. |
 | 7 | Write Edition 001 story and product copy. |
