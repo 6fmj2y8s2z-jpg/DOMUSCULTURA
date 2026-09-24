@@ -463,6 +463,273 @@
   color: var(--ink);
 }
 
+/* Ten-piece Gelato launch study. Product silhouettes stay code-native and editable. */
+.merch-capsule {
+  padding: 120px 7vw;
+  background: var(--paper);
+  color: var(--ink);
+}
+
+.merch-capsule-head {
+  display: grid;
+  grid-template-columns: 1.2fr 0.8fr;
+  gap: 7vw;
+  align-items: end;
+  margin-bottom: 65px;
+  padding-top: 20px;
+  border-top: 2px solid var(--ink);
+}
+
+.merch-capsule-head h2 {
+  margin-bottom: 0;
+}
+
+.merch-capsule-head h2 em {
+  color: var(--cobalt);
+}
+
+.merch-capsule-head > p {
+  max-width: 520px;
+  font-size: 16px;
+  line-height: 1.55;
+}
+
+.merch-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 52px 22px;
+}
+
+.merch-card {
+  min-width: 0;
+}
+
+.merch-object {
+  aspect-ratio: 4 / 4.8;
+  position: relative;
+  display: grid;
+  place-items: center;
+  overflow: hidden;
+  border: 2px solid var(--ink);
+}
+
+.merch-object.black { background: #171715; }
+.merch-object.cream { background: #e9e0cf; }
+.merch-object.red { background: var(--clay); }
+.merch-object.green { background: var(--cyan); }
+.merch-object.pink { background: var(--violet); }
+
+.garment {
+  width: 78%;
+  aspect-ratio: 1 / 1.04;
+  display: grid;
+  place-items: center;
+  position: relative;
+  background: #f5f0e8;
+  color: var(--ink);
+  filter: drop-shadow(0 20px 18px rgba(0, 0, 0, 0.2));
+}
+
+.garment.tee,
+.garment.sweatshirt {
+  clip-path: polygon(24% 8%, 39% 0, 61% 0, 76% 8%, 100% 26%, 88% 46%, 78% 37%, 80% 100%, 20% 100%, 22% 37%, 12% 46%, 0 26%);
+}
+
+.garment.sweatshirt { background: #8f1d2c; color: #fff; }
+
+.garment.hoodie {
+  background: #272724;
+  color: #fff;
+  clip-path: polygon(30% 12%, 39% 0, 61% 0, 70% 12%, 80% 13%, 100% 31%, 89% 50%, 78% 40%, 80% 100%, 20% 100%, 22% 40%, 11% 50%, 0 31%, 20% 13%);
+}
+
+.garment span,
+.tote-shape span,
+.mug-shape span {
+  font: 700 clamp(30px, 4vw, 60px)/0.78 "DM Sans", sans-serif;
+  letter-spacing: -0.075em;
+  text-align: center;
+}
+
+.garment span i,
+.tote-shape span i,
+.mug-shape span i {
+  font-family: "Playfair Display", serif;
+  font-weight: 500;
+}
+
+.garment.slogan span,
+.garment.hoodie span { font-size: clamp(20px, 2.35vw, 34px); }
+
+.garment small {
+  position: absolute;
+  bottom: 19%;
+  font: 8px "DM Mono", monospace;
+  letter-spacing: 0.08em;
+}
+
+.cap-shape {
+  width: 66%;
+  height: 38%;
+  position: relative;
+  display: grid;
+  place-items: center;
+  border-radius: 52% 52% 22% 22%;
+  background: #254a34;
+  color: #f5f0e8;
+  box-shadow: 0 18px 20px rgba(0, 0, 0, 0.2);
+}
+
+.cap-shape::after {
+  content: "";
+  position: absolute;
+  width: 55%;
+  height: 28%;
+  right: -32%;
+  bottom: -13%;
+  border-radius: 0 100% 70% 0;
+  background: #1d3a29;
+  transform: rotate(8deg);
+}
+
+.cap-shape span {
+  font: 700 clamp(42px, 5vw, 72px) "DM Sans", sans-serif;
+  letter-spacing: -0.08em;
+}
+
+.beanie-shape {
+  width: 56%;
+  height: 56%;
+  display: grid;
+  place-items: end center;
+  padding-bottom: 19%;
+  border-radius: 48% 48% 10% 10%;
+  background: repeating-linear-gradient(90deg, #d94b73 0 4px, #c13d63 4px 8px);
+  color: #fff;
+  box-shadow: 0 18px 20px rgba(0, 0, 0, 0.2);
+}
+
+.beanie-shape span {
+  width: 100%;
+  padding: 12px 0;
+  border-top: 2px solid rgba(255, 255, 255, 0.55);
+  border-bottom: 2px solid rgba(255, 255, 255, 0.55);
+  text-align: center;
+  font: 700 20px "DM Mono", monospace;
+}
+
+.tote-shape {
+  width: 64%;
+  height: 64%;
+  position: relative;
+  display: grid;
+  place-items: center;
+  background: #f5f0e8;
+  color: var(--ink);
+  box-shadow: 0 18px 20px rgba(0, 0, 0, 0.2);
+}
+
+.tote-shape::before {
+  content: "";
+  position: absolute;
+  width: 44%;
+  height: 42%;
+  left: 28%;
+  top: -26%;
+  border: 10px solid currentColor;
+  border-bottom: 0;
+  border-radius: 45% 45% 0 0;
+}
+
+.tote-shape.inverse { background: #20201e; color: #f5f0e8; }
+.tote-shape span { font-size: clamp(25px, 3vw, 44px); }
+
+.mug-shape {
+  width: 58%;
+  height: 55%;
+  position: relative;
+  display: grid;
+  place-items: center;
+  border-radius: 4px 4px 20% 20%;
+  background: #fff;
+  color: var(--ink);
+  box-shadow: 0 18px 20px rgba(0, 0, 0, 0.2);
+}
+
+.mug-shape::after {
+  content: "";
+  position: absolute;
+  width: 31%;
+  height: 47%;
+  right: -28%;
+  top: 21%;
+  border: 13px solid #fff;
+  border-left: 0;
+  border-radius: 0 50% 50% 0;
+}
+
+.mug-shape.enamel { border: 5px solid #31312e; border-top-width: 8px; }
+.mug-shape.enamel::after { border-color: #31312e; border-left: 0; }
+.mug-shape span { font-size: clamp(25px, 3vw, 44px); }
+
+.merch-card-copy {
+  min-height: 126px;
+  padding: 18px 0 12px;
+  border-bottom: 1px solid rgba(17, 17, 15, 0.35);
+}
+
+.merch-card-copy > span {
+  font: 9px "DM Mono", monospace;
+  text-transform: uppercase;
+  color: var(--cobalt);
+}
+
+.merch-card-copy h3 {
+  margin: 8px 0 7px;
+  font-size: 22px;
+}
+
+.merch-card-copy p {
+  margin: 0;
+  font: 10px "DM Mono", monospace;
+  text-transform: uppercase;
+  opacity: 0.62;
+}
+
+.merch-buy {
+  margin-top: 14px;
+  padding: 15px;
+  box-shadow: 5px 5px 0 var(--acid);
+}
+
+.merch-buy > span { margin-bottom: 12px; }
+.merch-buy select { margin-bottom: 13px; padding: 10px; }
+.merch-buy b { font-size: 16px; }
+.merch-buy button { padding: 11px; }
+
+.merch-capsule-note {
+  margin-top: 75px;
+  padding: 30px;
+  display: grid;
+  grid-template-columns: 0.35fr 1fr;
+  gap: 5vw;
+  background: var(--acid);
+  border: 2px solid var(--ink);
+  box-shadow: 10px 10px 0 var(--cobalt);
+}
+
+.merch-capsule-note span {
+  font: 10px "DM Mono", monospace;
+  text-transform: uppercase;
+}
+
+.merch-capsule-note p {
+  max-width: 780px;
+  margin: 0;
+  font-size: 17px;
+  line-height: 1.5;
+}
+
 /* Shopify storefront prototype — deliberately non-transactional until connected. */
 .mock-cart-trigger {
   appearance: none;
@@ -755,4 +1022,11 @@
   .purchase-mock > div { align-items: stretch; flex-direction: column; }
   .purchase-mock button { width: 100%; }
   .mock-cart { padding: 22px; box-shadow: -7px 0 0 var(--cobalt); }
+
+  .merch-capsule { padding: 85px 6vw; }
+  .merch-capsule-head,
+  .merch-capsule-note { grid-template-columns: 1fr; }
+  .merch-grid { grid-template-columns: 1fr; gap: 60px; }
+  .merch-card-copy { min-height: 0; }
+  .merch-object { aspect-ratio: 4 / 4.5; }
 }
