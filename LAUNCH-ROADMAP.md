@@ -13,6 +13,16 @@ Operating targets, not guarantees. Prioritise cash flow, proof of demand and a r
 - SoundCloud embeds for a weekly 45–60 minute Juice+ programme.
 - Instagram for discovery, email for ownership, events for trust, store for conversion.
 
+## Zero-inventory operating model
+
+- No speculative stock: every sellable item is produced only after a paid order.
+- Fine-art photography: My Art Registry routes certified Hahnemühle production through its studio network.
+- Apparel and objects: an approved Shopify print-on-demand partner fulfils T-shirts, heavyweight sweatshirts, caps, mugs and totes.
+- Paper goods: postcards and small print sets are printed on demand or sold through short, fully pre-sold releases.
+- Shopify remains the central storefront; each order is automatically routed to the appropriate production partner.
+- Samples are the only physical items Domus Cultura buys before launch, because colour, textile weight, fit and packaging must be approved.
+- Products are added slowly: one tested supplier and one approved sample per product category before public sale.
+
 ## Days 1–30
 
 | Day | Deliverable |
