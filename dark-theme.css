@@ -1,0 +1,77 @@
+/* Dominant black gallery theme. Cream is reserved for artwork mounts and product detail cards. */
+.refined-home,
+.refined-home .dc-header,
+.refined-home .dc-hero,
+.refined-home .dc-current,
+.refined-home .dc-statement,
+.refined-home .dc-art {
+  background: var(--black);
+  color: var(--cream);
+}
+
+.refined-home .dc-header,
+.refined-home .dc-hero,
+.refined-home .dc-current,
+.refined-home .dc-statement,
+.refined-home .dc-art,
+.refined-home .dc-current-feature {
+  border-color: rgba(248, 244, 234, 0.28);
+}
+
+.refined-home .dc-top-stories {
+  background: var(--acid);
+  color: var(--black);
+}
+
+.refined-home .dc-top-stories > div,
+.refined-home .dc-top-stories > a {
+  border-color: rgba(17, 17, 15, 0.35);
+}
+
+.refined-home .dc-portals {
+  border-color: rgba(248, 244, 234, 0.28);
+}
+
+.refined-home .dc-portals > a:first-child {
+  background: var(--black);
+  color: var(--cream);
+  border-color: rgba(248, 244, 234, 0.28);
+}
+
+.shop-page {
+  background: var(--ink);
+  color: var(--paper);
+}
+
+.shop-page header,
+.shop-page .hero,
+.shop-page .ticker,
+.shop-page .collections,
+.shop-page .journal,
+.shop-page .radio {
+  background: var(--ink);
+  color: var(--paper);
+}
+
+.shop-page header,
+.shop-page .ticker,
+.shop-page .heading,
+.shop-page .cards article,
+.shop-page .radio {
+  border-color: rgba(248, 244, 234, 0.3);
+}
+
+.shop-page .visual {
+  color: var(--ink);
+}
+
+.shop-page .soundcloud {
+  background: var(--paper);
+  color: var(--ink);
+  border-color: var(--paper);
+  box-shadow: 8px 8px var(--acid) !important;
+}
+
+.shop-page .newsletter {
+  color: var(--ink);
+}
