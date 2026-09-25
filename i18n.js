@@ -205,6 +205,52 @@
     'Print only; frame and mounting are not included. Each approved edition will be registered through My Art Registry and accompanied by a signed certificate with its matching numbered hologram. Final dimensions, paper specification and prices follow a physical Gelato sample, packaging test and Swiss VAT review.': 'Solo impresión; marco y montaje no incluidos. Cada edición aprobada se registrará en My Art Registry e incluirá certificado firmado y holograma numerado. Medidas, papel y precios finales tras una muestra física de Gelato, prueba de embalaje y revisión del IVA suizo.'
   });
 
+  Object.assign(translations.fr, {
+    'Scale view / 45 × 60 cm edition': 'Vue à l’échelle / édition 45 × 60 cm',
+    'Edition Small · 30 × 40 cm · CHF 180': 'Édition petit format · 30 × 40 cm · CHF 180',
+    'Edition Medium · 45 × 60 cm · CHF 380': 'Édition moyen format · 45 × 60 cm · CHF 380',
+    'Edition Large · 60 × 80 cm · CHF 700': 'Édition grand format · 60 × 80 cm · CHF 700',
+    'Small · 30 × 40 cm · CHF 180': 'Petit · 30 × 40 cm · CHF 180',
+    'Medium · 45 × 60 cm · CHF 380': 'Moyen · 45 × 60 cm · CHF 380',
+    'Large · 60 × 80 cm · CHF 700': 'Grand · 60 × 80 cm · CHF 700',
+    'Preview 01 · Small · 30 × 40 cm': 'Aperçu 01 · Petit · 30 × 40 cm',
+    'Preview 02 · Medium · 45 × 60 cm': 'Aperçu 02 · Moyen · 45 × 60 cm',
+    'Preview 03 · Large · 60 × 80 cm': 'Aperçu 03 · Grand · 60 × 80 cm',
+    'Small · 30 × 40 cm': 'Petit · 30 × 40 cm', 'Medium · 45 × 60 cm': 'Moyen · 45 × 60 cm', 'Large · 60 × 80 cm': 'Grand · 60 × 80 cm',
+    'Final paper approval and public release follow a physical Gelato sample, packaging test and Swiss VAT review.': 'L’approbation finale du papier et la mise en vente suivront un échantillon physique Gelato, un test d’emballage et un examen de la TVA suisse.',
+    'Print only; frame and mounting are not included. Each approved edition will be registered through My Art Registry and accompanied by a signed certificate with its matching numbered hologram. Final paper approval and public release follow a physical Gelato sample, packaging test and Swiss VAT review.': 'Tirage seul ; cadre et montage non inclus. Chaque édition approuvée sera enregistrée dans My Art Registry et accompagnée d’un certificat signé avec hologramme numéroté. L’approbation finale du papier et la mise en vente suivront un échantillon physique Gelato, un test d’emballage et un examen de la TVA suisse.'
+  });
+  Object.assign(translations.de, {
+    'Scale view / 45 × 60 cm edition': 'Größenansicht / Edition 45 × 60 cm',
+    'Edition Small · 30 × 40 cm · CHF 180': 'Edition Klein · 30 × 40 cm · CHF 180',
+    'Edition Medium · 45 × 60 cm · CHF 380': 'Edition Mittel · 45 × 60 cm · CHF 380',
+    'Edition Large · 60 × 80 cm · CHF 700': 'Edition Groß · 60 × 80 cm · CHF 700',
+    'Small · 30 × 40 cm · CHF 180': 'Klein · 30 × 40 cm · CHF 180',
+    'Medium · 45 × 60 cm · CHF 380': 'Mittel · 45 × 60 cm · CHF 380',
+    'Large · 60 × 80 cm · CHF 700': 'Groß · 60 × 80 cm · CHF 700',
+    'Preview 01 · Small · 30 × 40 cm': 'Vorschau 01 · Klein · 30 × 40 cm',
+    'Preview 02 · Medium · 45 × 60 cm': 'Vorschau 02 · Mittel · 45 × 60 cm',
+    'Preview 03 · Large · 60 × 80 cm': 'Vorschau 03 · Groß · 60 × 80 cm',
+    'Small · 30 × 40 cm': 'Klein · 30 × 40 cm', 'Medium · 45 × 60 cm': 'Mittel · 45 × 60 cm', 'Large · 60 × 80 cm': 'Groß · 60 × 80 cm',
+    'Final paper approval and public release follow a physical Gelato sample, packaging test and Swiss VAT review.': 'Die endgültige Papierfreigabe und Veröffentlichung erfolgen nach einem physischen Gelato-Muster, Verpackungstest und der Prüfung der Schweizer MwSt.',
+    'Print only; frame and mounting are not included. Each approved edition will be registered through My Art Registry and accompanied by a signed certificate with its matching numbered hologram. Final paper approval and public release follow a physical Gelato sample, packaging test and Swiss VAT review.': 'Nur Druck; Rahmen und Montage sind nicht enthalten. Jede freigegebene Edition wird über My Art Registry registriert und mit signiertem Zertifikat samt nummeriertem Hologramm geliefert. Die endgültige Papierfreigabe und Veröffentlichung erfolgen nach einem physischen Gelato-Muster, Verpackungstest und der Prüfung der Schweizer MwSt.'
+  });
+  Object.assign(translations.es, {
+    'Scale view / 45 × 60 cm edition': 'Vista a escala / edición 45 × 60 cm',
+    'Edition Small · 30 × 40 cm · CHF 180': 'Edición pequeña · 30 × 40 cm · CHF 180',
+    'Edition Medium · 45 × 60 cm · CHF 380': 'Edición mediana · 45 × 60 cm · CHF 380',
+    'Edition Large · 60 × 80 cm · CHF 700': 'Edición grande · 60 × 80 cm · CHF 700',
+    'Small · 30 × 40 cm · CHF 180': 'Pequeña · 30 × 40 cm · CHF 180',
+    'Medium · 45 × 60 cm · CHF 380': 'Mediana · 45 × 60 cm · CHF 380',
+    'Large · 60 × 80 cm · CHF 700': 'Grande · 60 × 80 cm · CHF 700',
+    'Preview 01 · Small · 30 × 40 cm': 'Vista 01 · Pequeña · 30 × 40 cm',
+    'Preview 02 · Medium · 45 × 60 cm': 'Vista 02 · Mediana · 45 × 60 cm',
+    'Preview 03 · Large · 60 × 80 cm': 'Vista 03 · Grande · 60 × 80 cm',
+    'Small · 30 × 40 cm': 'Pequeña · 30 × 40 cm', 'Medium · 45 × 60 cm': 'Mediana · 45 × 60 cm', 'Large · 60 × 80 cm': 'Grande · 60 × 80 cm',
+    'Final paper approval and public release follow a physical Gelato sample, packaging test and Swiss VAT review.': 'La aprobación final del papel y la publicación seguirán a una muestra física de Gelato, una prueba de embalaje y la revisión del IVA suizo.',
+    'Print only; frame and mounting are not included. Each approved edition will be registered through My Art Registry and accompanied by a signed certificate with its matching numbered hologram. Final paper approval and public release follow a physical Gelato sample, packaging test and Swiss VAT review.': 'Solo impresión; marco y montaje no incluidos. Cada edición aprobada se registrará en My Art Registry e incluirá certificado firmado y holograma numerado. La aprobación final del papel y la publicación seguirán a una muestra física de Gelato, una prueba de embalaje y la revisión del IVA suizo.'
+  });
+
   const ignoredParents = new Set(['SCRIPT', 'STYLE', 'NOSCRIPT']);
   const textNodes = [];
   const walker = document.createTreeWalker(document.body, NodeFilter.SHOW_TEXT);

@@ -33,6 +33,20 @@ The edition belongs to the photograph, not to its size.
 
 Until shared inventory is technically connected, the website may collect interest but must not accept payment for limited editions.
 
+## Gelato dashboard verification — 25 September 2026
+
+The signed-in Gelato catalogue was checked with delivery set to Switzerland. The selected product is **Fine Art Poster**, using 12-colour giclée printing on smooth enhanced-matte 200 gsm FSC-certified paper. It is a Gelato paper product, not branded Hahnemühle Photo Rag. All figures below are account prices excluding VAT and must be rechecked before launch.
+
+| Public format | Gelato product | Product cost | Shipping to Switzerland | Supplier subtotal* | Planned retail |
+|---|---|---:|---:|---:|---:|
+| Small | 30 × 40 cm | CHF 13.72 | CHF 10.33 | CHF 24.05 | CHF 180 |
+| Medium | 45 × 60 cm | CHF 15.18 | CHF 10.33 | CHF 25.51 | CHF 380 |
+| Large | 60 × 80 cm | CHF 14.65 | CHF 10.76 | CHF 25.41 | CHF 700 |
+
+*Before VAT, Shopify/payment fees, certificate handling, reprint allowance and any packaging upgrade. The unexpectedly low supplier subtotals are not a substitute for physical proofing.
+
+Gelato states that this product is printed on demand with no minimum order, is fulfilled in eight countries, and is tube-packed above A4. Gelato does not provide the shared edition counter, artist signature or Hahnemühle hologram workflow: Domus Cultura must control those separately. Do not activate payment for a numbered edition until the certificate, numbering and cancellation/reprint procedure has been tested end to end.
+
 ## Store architecture
 
 1. Keep the editorial experience on Vercel.
