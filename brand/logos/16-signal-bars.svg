@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="600" viewBox="0 0 1200 600" role="img" aria-labelledby="title">
+<title id="title">Domus Cultura — Signal Bars</title>
+    <g fill="#11110f"><rect x="80" y="260" width="55" height="190"/><rect x="160" y="175" width="55" height="275"/><rect x="240" y="95" width="55" height="355"/><rect x="320" y="210" width="55" height="240"/><rect x="400" y="145" width="55" height="305"/></g>
+    <rect x="480" y="95" width="30" height="355" fill="#9abf88"/><text x="565" y="270" fill="#11110f" font-family="'Helvetica Neue','Avenir Next',Arial,sans-serif" font-size="112" font-weight="700">DOMUS</text><text x="565" y="400" fill="#11110f" font-family="'Helvetica Neue','Avenir Next',Arial,sans-serif" font-size="112" font-weight="700">CULTURA</text></svg>

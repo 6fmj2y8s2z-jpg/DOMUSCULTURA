@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="600" viewBox="0 0 1200 600" role="img" aria-labelledby="title">
+<title id="title">Domus Cultura — Mirror</title>
+    <text x="600" y="290" text-anchor="middle" fill="#11110f" font-family="'Helvetica Neue','Avenir Next',Arial,sans-serif" font-size="180" font-weight="700" letter-spacing="-10">DOMUS</text>
+    <text x="600" y="475" text-anchor="middle" fill="#d13d32" font-family="'Helvetica Neue','Avenir Next',Arial,sans-serif" font-size="180" font-weight="700" letter-spacing="-10" transform="translate(1200 0) scale(-1 1)">CULTURA</text>
+    <line x1="110" y1="330" x2="1090" y2="330" stroke="#11110f" stroke-width="6"/></svg>

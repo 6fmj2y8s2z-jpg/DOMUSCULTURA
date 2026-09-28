@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="600" viewBox="0 0 1200 600" role="img" aria-labelledby="title">
+<title id="title">Domus Cultura — Museum Plaque</title>
+    <rect x="80" y="95" width="1040" height="410" rx="4" fill="#11110f"/>
+    <text x="130" y="275" fill="#f8f4ea" font-family="'New York','Times New Roman',serif" font-size="150">Domus Cultura</text>
+    <line x1="130" y1="325" x2="1070" y2="325" stroke="#d13d32" stroke-width="5"/><text x="132" y="405" fill="#f8f4ea" font-family="'SF Mono','Courier New',monospace" font-size="30" letter-spacing="8">IMAGE · SOUND · EDITIONS · EVENTS</text></svg>

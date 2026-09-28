@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="600" viewBox="0 0 1200 600" role="img" aria-labelledby="title">
+<title id="title">Domus Cultura — Ribbon</title>
+    <path d="M80 180H1120L1030 300L1120 420H80L170 300Z" fill="#11110f"/>
+    <text x="600" y="345" text-anchor="middle" fill="#f8f4ea" font-family="'SF Mono','Courier New',monospace" font-size="105" font-weight="700" letter-spacing="12">DOMUS CULTURA</text>
+    <circle cx="170" cy="300" r="48" fill="#9abf88"/><circle cx="1030" cy="300" r="48" fill="#d13d32"/></svg>

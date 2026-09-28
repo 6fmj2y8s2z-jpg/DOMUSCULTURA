@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="600" viewBox="0 0 1200 600" role="img" aria-labelledby="title">
+<title id="title">Domus Cultura — Constructivist</title>
+    <polygon points="65,520 360,70 555,70 260,520" fill="#d13d32"/><circle cx="570" cy="300" r="195" fill="#d94b73" opacity=".9"/>
+    <rect x="560" y="80" width="575" height="440" fill="#11110f"/>
+    <text x="605" y="275" fill="#f8f4ea" font-family="'Avenir Next Condensed','Helvetica Neue',Arial,sans-serif" font-size="135" font-weight="700">DOMUS</text><text x="605" y="420" fill="#f8f4ea" font-family="'Avenir Next Condensed','Helvetica Neue',Arial,sans-serif" font-size="135" font-weight="700">CULTURA</text></svg>
