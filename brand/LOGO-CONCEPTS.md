@@ -35,7 +35,7 @@ The SVG files remain resolution-independent. Their live text uses macOS system t
 
 ### 21 / Vivid House
 
-This hybrid combines the stacked authority of 01, the stencil interruptions of 10, the constructivist geometry of 13 and the softer overlapping forms of 20. Its dominant vibrant yellow is supported by saturated red, pink and a small green counterpoint. Use the full-colour version for campaigns, apparel and packaging; prepare a simplified one-colour production variant before embroidery.
+This hybrid combines the stacked authority of 01, the stencil structure of 10, the constructivist geometry of 13 and the softer overlapping forms of 20. Its dominant vibrant yellow is supported by saturated red, pink and a substantial hunter-green field. The stencil rails frame the wordmark without obscuring any lettering. Use the full-colour version for campaigns, apparel and packaging; prepare a simplified one-colour production variant before embroidery.
 
 ## Production note
 
