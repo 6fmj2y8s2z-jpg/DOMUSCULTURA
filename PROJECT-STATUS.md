@@ -21,6 +21,8 @@ This is the operational handoff for work in Codex, Claude or another coding envi
 - A dedicated long-form journal story template begins with `story-inside-the-image.html`; future journal entries should use the same article structure.
 - Portfolio and permission-linked Instagram imagery.
 - SoundCloud player for Juice+.
+- `ben-taleb-site/` is a self-contained, multi-page artist portfolio prepared for its own repository, Vercel project and domain.
+- `juice-plus-site/` is a self-contained DJ landing page with SoundCloud and a structured gig-booking enquiry, prepared for its own repository, Vercel project and domain.
 - Ten responsive Gelato-oriented merchandise concepts with mock variants and a test cart.
 - Three-view product study for merchandise and prints.
 - Artist-submission page and multilingual interface.
@@ -31,6 +33,7 @@ This is the operational handoff for work in Codex, Claude or another coding envi
 - The cart does not take payment and is not connected to Shopify.
 - The newsletter uses the visitor's email application; it does not store subscribers.
 - Artist submissions use the visitor's email application; there is no form database or upload service.
+- The independent Juice+ site's booking enquiries use the visitor's email application; there is no booking database or CRM yet.
 - Edition availability is static; there is no shared counter across the three sizes.
 - Merchandise designs are visual concepts, not production-ready Gelato artwork files.
 - No analytics, cookie/consent configuration, shipping rules, taxes or legal policies are connected.
