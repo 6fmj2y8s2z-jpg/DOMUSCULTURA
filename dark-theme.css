@@ -255,6 +255,10 @@
   text-transform: uppercase;
 }
 
+.shop-page header nav a.is-current {
+  border-bottom: 1px solid currentColor;
+}
+
 .shop-page .notes {
   grid-template-columns: repeat(12, minmax(0, 1fr));
   row-gap: 58px;

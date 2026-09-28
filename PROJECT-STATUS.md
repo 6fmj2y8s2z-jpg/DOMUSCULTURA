@@ -1,6 +1,6 @@
 # Domus Cultura — project status
 
-Last audited: 25 September 2026
+Last audited: 28 September 2026
 
 This is the operational handoff for work in Codex, Claude or another coding environment. It contains no passwords, tokens or private account credentials. Never commit secrets to this repository.
 
@@ -17,6 +17,8 @@ This is the operational handoff for work in Codex, Claude or another coding envi
 
 - High-end black editorial design with red, pink and green accents.
 - Larger Domus Cultura identity and the requested navigation: Sounds, Art Shop, Art Journal, Events and Art.
+- Click-through editorial architecture: the homepage is now a concise front page linking to separate `sounds.html`, `shop.html`, `journal.html`, `events.html` and `art.html` channels.
+- A dedicated long-form journal story template begins with `story-inside-the-image.html`; future journal entries should use the same article structure.
 - Portfolio and permission-linked Instagram imagery.
 - SoundCloud player for Juice+.
 - Ten responsive Gelato-oriented merchandise concepts with mock variants and a test cart.
