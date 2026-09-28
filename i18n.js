@@ -251,6 +251,52 @@
     'Print only; frame and mounting are not included. Each approved edition will be registered through My Art Registry and accompanied by a signed certificate with its matching numbered hologram. Final paper approval and public release follow a physical Gelato sample, packaging test and Swiss VAT review.': 'Solo impresión; marco y montaje no incluidos. Cada edición aprobada se registrará en My Art Registry e incluirá certificado firmado y holograma numerado. La aprobación final del papel y la publicación seguirán a una muestra física de Gelato, una prueba de embalaje y la revisión del IVA suizo.'
   });
 
+  Object.assign(translations.fr, {
+    'From CHF 200': 'Dès CHF 200',
+    'One unframed photograph · Hahnemühle Photo Rag 308 gsm · three sizes · one shared edition of 100.': 'Une photographie non encadrée · Hahnemühle Photo Rag 308 g/m² · trois formats · une édition commune de 100.',
+    'Looking Up is one unframed museum-grade giclée photograph, printed on Hahnemühle Photo Rag 308 gsm with archival pigment inks. One shared edition of 100 across all three sizes, with an individually numbered certificate of authenticity.': 'Looking Up est une photographie giclée non encadrée de qualité musée, imprimée sur Hahnemühle Photo Rag 308 g/m² avec des encres pigmentaires d’archive. Une édition commune de 100 pour les trois formats, avec certificat d’authenticité numéroté.',
+    'Hahnemühle Photo Rag · 308 gsm · 100% cotton': 'Hahnemühle Photo Rag · 308 g/m² · 100 % coton',
+    'Edition Small · 30 × 40 cm · CHF 200': 'Édition petit format · 30 × 40 cm · CHF 200',
+    'Edition Medium · 45 × 60 cm · CHF 300': 'Édition moyen format · 45 × 60 cm · CHF 300',
+    'Edition Large · 60 × 80 cm · CHF 600': 'Édition grand format · 60 × 80 cm · CHF 600',
+    '02 — Edition 001 / Looking Up': '02 — Édition 001 / Looking Up', 'One image.': 'Une image.', 'Three sizes.': 'Trois formats.',
+    'Small · 30 × 40 cm · CHF 200': 'Petit · 30 × 40 cm · CHF 200', 'Medium · 45 × 60 cm · CHF 300': 'Moyen · 45 × 60 cm · CHF 300', 'Large · 60 × 80 cm · CHF 600': 'Grand · 60 × 80 cm · CHF 600',
+    'Unframed · Hahnemühle Photo Rag 308 gsm': 'Non encadré · Hahnemühle Photo Rag 308 g/m²',
+    'One photograph. One numbered edition of 100 in total across all three sizes.': 'Une photographie. Une édition numérotée de 100 au total pour les trois formats.',
+    'One unframed black-and-white fine-art photograph, produced only after purchase on museum-grade Hahnemühle Photo Rag 308 gsm with archival pigment inks. Looking Up is limited to 100 numbered prints in total across all sizes.': 'Une photographie d’art noir et blanc non encadrée, produite uniquement après achat sur papier Hahnemühle Photo Rag 308 g/m² de qualité musée avec des encres pigmentaires d’archive. Looking Up est limitée à 100 tirages numérotés au total, tous formats confondus.',
+    'Print only; frame and mounting are not included. The edition will use a specialist fine-art production route because Gelato’s current fine-art paper is 200 gsm, below this edition’s 300+ gsm requirement. Final release follows a physical proof, certificate workflow, packaging test and Swiss VAT review.': 'Tirage seul ; cadre et montage non inclus. L’édition utilisera une filière de production beaux-arts spécialisée car le papier fine art actuel de Gelato est de 200 g/m², inférieur à l’exigence de 300 g/m² ou plus. La sortie finale suivra une épreuve physique, la validation du certificat, un test d’emballage et l’examen de la TVA suisse.'
+  });
+  Object.assign(translations.de, {
+    'From CHF 200': 'Ab CHF 200',
+    'One unframed photograph · Hahnemühle Photo Rag 308 gsm · three sizes · one shared edition of 100.': 'Eine ungerahmte Fotografie · Hahnemühle Photo Rag 308 g/m² · drei Formate · eine gemeinsame Auflage von 100.',
+    'Looking Up is one unframed museum-grade giclée photograph, printed on Hahnemühle Photo Rag 308 gsm with archival pigment inks. One shared edition of 100 across all three sizes, with an individually numbered certificate of authenticity.': 'Looking Up ist eine ungerahmte Giclée-Fotografie in Museumsqualität auf Hahnemühle Photo Rag 308 g/m² mit archivfesten Pigmenttinten. Eine gemeinsame Auflage von 100 über alle drei Formate mit einzeln nummeriertem Echtheitszertifikat.',
+    'Hahnemühle Photo Rag · 308 gsm · 100% cotton': 'Hahnemühle Photo Rag · 308 g/m² · 100 % Baumwolle',
+    'Edition Small · 30 × 40 cm · CHF 200': 'Edition Klein · 30 × 40 cm · CHF 200',
+    'Edition Medium · 45 × 60 cm · CHF 300': 'Edition Mittel · 45 × 60 cm · CHF 300',
+    'Edition Large · 60 × 80 cm · CHF 600': 'Edition Groß · 60 × 80 cm · CHF 600',
+    '02 — Edition 001 / Looking Up': '02 — Edition 001 / Looking Up', 'One image.': 'Ein Bild.', 'Three sizes.': 'Drei Formate.',
+    'Small · 30 × 40 cm · CHF 200': 'Klein · 30 × 40 cm · CHF 200', 'Medium · 45 × 60 cm · CHF 300': 'Mittel · 45 × 60 cm · CHF 300', 'Large · 60 × 80 cm · CHF 600': 'Groß · 60 × 80 cm · CHF 600',
+    'Unframed · Hahnemühle Photo Rag 308 gsm': 'Ungerahmt · Hahnemühle Photo Rag 308 g/m²',
+    'One photograph. One numbered edition of 100 in total across all three sizes.': 'Eine Fotografie. Eine nummerierte Gesamtauflage von 100 über alle drei Formate.',
+    'One unframed black-and-white fine-art photograph, produced only after purchase on museum-grade Hahnemühle Photo Rag 308 gsm with archival pigment inks. Looking Up is limited to 100 numbered prints in total across all sizes.': 'Eine ungerahmte Schwarz-Weiß-Fine-Art-Fotografie, erst nach dem Kauf auf Hahnemühle Photo Rag 308 g/m² in Museumsqualität mit archivfesten Pigmenttinten produziert. Looking Up ist über alle Formate hinweg auf insgesamt 100 nummerierte Abzüge limitiert.',
+    'Print only; frame and mounting are not included. The edition will use a specialist fine-art production route because Gelato’s current fine-art paper is 200 gsm, below this edition’s 300+ gsm requirement. Final release follows a physical proof, certificate workflow, packaging test and Swiss VAT review.': 'Nur Druck; Rahmen und Montage sind nicht enthalten. Die Edition nutzt eine spezialisierte Fine-Art-Produktion, da Gelatos aktuelles Fine-Art-Papier mit 200 g/m² unter der Anforderung von mindestens 300 g/m² liegt. Die Veröffentlichung erfolgt nach physischem Proof, Zertifikatsablauf, Verpackungstest und Prüfung der Schweizer MwSt.'
+  });
+  Object.assign(translations.es, {
+    'From CHF 200': 'Desde CHF 200',
+    'One unframed photograph · Hahnemühle Photo Rag 308 gsm · three sizes · one shared edition of 100.': 'Una fotografía sin marco · Hahnemühle Photo Rag 308 g/m² · tres tamaños · una edición compartida de 100.',
+    'Looking Up is one unframed museum-grade giclée photograph, printed on Hahnemühle Photo Rag 308 gsm with archival pigment inks. One shared edition of 100 across all three sizes, with an individually numbered certificate of authenticity.': 'Looking Up es una fotografía giclée sin marco de calidad museo, impresa en Hahnemühle Photo Rag 308 g/m² con tintas pigmentarias de archivo. Una edición compartida de 100 entre los tres tamaños, con certificado de autenticidad numerado.',
+    'Hahnemühle Photo Rag · 308 gsm · 100% cotton': 'Hahnemühle Photo Rag · 308 g/m² · 100 % algodón',
+    'Edition Small · 30 × 40 cm · CHF 200': 'Edición pequeña · 30 × 40 cm · CHF 200',
+    'Edition Medium · 45 × 60 cm · CHF 300': 'Edición mediana · 45 × 60 cm · CHF 300',
+    'Edition Large · 60 × 80 cm · CHF 600': 'Edición grande · 60 × 80 cm · CHF 600',
+    '02 — Edition 001 / Looking Up': '02 — Edición 001 / Looking Up', 'One image.': 'Una imagen.', 'Three sizes.': 'Tres tamaños.',
+    'Small · 30 × 40 cm · CHF 200': 'Pequeña · 30 × 40 cm · CHF 200', 'Medium · 45 × 60 cm · CHF 300': 'Mediana · 45 × 60 cm · CHF 300', 'Large · 60 × 80 cm · CHF 600': 'Grande · 60 × 80 cm · CHF 600',
+    'Unframed · Hahnemühle Photo Rag 308 gsm': 'Sin marco · Hahnemühle Photo Rag 308 g/m²',
+    'One photograph. One numbered edition of 100 in total across all three sizes.': 'Una fotografía. Una edición numerada de 100 en total entre los tres tamaños.',
+    'One unframed black-and-white fine-art photograph, produced only after purchase on museum-grade Hahnemühle Photo Rag 308 gsm with archival pigment inks. Looking Up is limited to 100 numbered prints in total across all sizes.': 'Una fotografía fine art en blanco y negro sin marco, producida solo después de la compra en Hahnemühle Photo Rag 308 g/m² de calidad museo con tintas pigmentarias de archivo. Looking Up está limitada a 100 copias numeradas en total entre todos los tamaños.',
+    'Print only; frame and mounting are not included. The edition will use a specialist fine-art production route because Gelato’s current fine-art paper is 200 gsm, below this edition’s 300+ gsm requirement. Final release follows a physical proof, certificate workflow, packaging test and Swiss VAT review.': 'Solo impresión; marco y montaje no incluidos. La edición utilizará una producción fine art especializada porque el papel fine art actual de Gelato es de 200 g/m², inferior al requisito de 300 g/m² o más. La publicación final seguirá a una prueba física, el flujo del certificado, una prueba de embalaje y la revisión del IVA suizo.'
+  });
+
   const ignoredParents = new Set(['SCRIPT', 'STYLE', 'NOSCRIPT']);
   const textNodes = [];
   const walker = document.createTreeWalker(document.body, NodeFilter.SHOW_TEXT);

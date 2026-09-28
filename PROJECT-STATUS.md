@@ -37,11 +37,11 @@ This is the operational handoff for work in Codex, Claude or another coding envi
 
 | Size | Retail | Gelato product cost | Swiss shipping | Status |
 |---|---:|---:|---:|---|
-| 30 × 40 cm | CHF 180 | CHF 13.72 | CHF 10.33 | sample required |
-| 45 × 60 cm | CHF 380 | CHF 15.18 | CHF 10.33 | sample required |
-| 60 × 80 cm | CHF 700 | CHF 14.65 | CHF 10.76 | sample required |
+| 30 × 40 cm | CHF 200 | specialist quote required | — | sample required |
+| 45 × 60 cm | CHF 300 | specialist quote required | — | sample required |
+| 60 × 80 cm | CHF 600 | specialist quote required | — | sample required |
 
-Gelato figures are excluding VAT, observed in the signed-in dashboard on 25 September 2026. The product is Fine Art Poster: enhanced-matte 200 gsm FSC-certified paper with 12-colour giclée printing. It is not Hahnemühle-branded paper.
+The required paper is Hahnemühle Photo Rag 308 gsm, 100% cotton, printed with archival pigment inks. Gelato's current Fine Art Poster is museum-quality but only 200 gsm, so it does not meet the 300+ gsm requirement. Gelato remains the merchandise fulfiller; limited photography needs a specialist fine-art route such as a Hahnemühle Certified Studio/My Art Registry or a tested Prodigi Hahnemühle workflow.
 
 The edition limit is 100 per photograph across all sizes combined—not 100 per size. Gelato cannot enforce that rule by itself.
 

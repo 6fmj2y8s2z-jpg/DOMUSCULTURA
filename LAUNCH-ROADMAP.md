@@ -10,8 +10,8 @@ Operating targets, not guarantees. Prioritise cash flow, proof of demand and a r
 - Prodigi is the direct-store fallback for Hahnemühle Photo Rag 308 gsm photography because it supports EU fulfilment and Shopify/API integration; do not use it for limited-edition direct shipping until the matching certificate/hologram workflow is contractually confirmed.
 - Link each Ben Taleb product page to its verified My Art Registry record; keep one edition counter shared across all three sizes.
 - Compare physical samples from Gelato, Printful and Prodigi before any public checkout opens.
-- Three unframed print sizes on museum-grade Hahnemühle paper; 100 copies maximum per image across all sizes; numbered certificate.
-- Launch price bands: small CHF 150–200, medium CHF 300–450, large CHF 600–800.
+- One launch photograph in three unframed sizes on museum-grade Hahnemühle Photo Rag 308 gsm; 100 copies maximum across all sizes combined; numbered certificate.
+- Edition 001 prices: 30 × 40 cm CHF 200, 45 × 60 cm CHF 300, 60 × 80 cm CHF 600.
 - SoundCloud embeds for a weekly 45–60 minute Juice+ programme.
 - Instagram for discovery, email for ownership, events for trust, store for conversion.
 

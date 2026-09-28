@@ -39,13 +39,17 @@ The signed-in Gelato catalogue was checked with delivery set to Switzerland. The
 
 | Public format | Gelato product | Product cost | Shipping to Switzerland | Supplier subtotal* | Planned retail |
 |---|---|---:|---:|---:|---:|
-| Small | 30 × 40 cm | CHF 13.72 | CHF 10.33 | CHF 24.05 | CHF 180 |
-| Medium | 45 × 60 cm | CHF 15.18 | CHF 10.33 | CHF 25.51 | CHF 380 |
-| Large | 60 × 80 cm | CHF 14.65 | CHF 10.76 | CHF 25.41 | CHF 700 |
+| Small | 30 × 40 cm | CHF 13.72 | CHF 10.33 | CHF 24.05 | CHF 200 |
+| Medium | 45 × 60 cm | CHF 15.18 | CHF 10.33 | CHF 25.51 | CHF 300 |
+| Large | 60 × 80 cm | CHF 14.65 | CHF 10.76 | CHF 25.41 | CHF 600 |
 
 *Before VAT, Shopify/payment fees, certificate handling, reprint allowance and any packaging upgrade. The unexpectedly low supplier subtotals are not a substitute for physical proofing.
 
 Gelato states that this product is printed on demand with no minimum order, is fulfilled in eight countries, and is tube-packed above A4. Gelato does not provide the shared edition counter, artist signature or Hahnemühle hologram workflow: Domus Cultura must control those separately. Do not activate payment for a numbered edition until the certificate, numbering and cancellation/reprint procedure has been tested end to end.
+
+### Decision update — 28 September 2026
+
+The launch edition now requires paper of at least 300 gsm. Gelato's museum-quality Fine Art Poster is 200 gsm and its archival poster option is 250 gsm, so neither meets the requirement. Gelato remains the preferred merchandise fulfiller, but **Looking Up / Edition 001** must use Hahnemühle Photo Rag 308 gsm through a specialist fine-art route. Public prices are CHF 200 / 300 / 600 for 30 × 40 / 45 × 60 / 60 × 80 cm. Obtain a new supplier quote and physical proof before checkout is enabled.
 
 ## Store architecture
 
@@ -68,9 +72,9 @@ These are decision limits, not supplier quotations. Approve a product only after
 | Embroidered cap | CHF 45–60 | CHF 32 | CHF 13–28 |
 | Mug | CHF 28–35 | CHF 22 | CHF 6–13 |
 | Postcard set | CHF 18–25 | CHF 10 | CHF 8–15 |
-| Small photo edition | CHF 180–200 | CHF 70 | CHF 110–130 |
-| Medium photo edition | CHF 380–450 | CHF 130 | CHF 250–320 |
-| Large photo edition | CHF 700–800 | CHF 240 | CHF 460–560 |
+| Small photo edition | CHF 200 | CHF 70 | CHF 130 |
+| Medium photo edition | CHF 300 | CHF 130 | CHF 170 |
+| Large photo edition | CHF 600 | CHF 240 | CHF 360 |
 
 *Production, packaging, fulfilment shipping subsidy, payment fee, damaged-order allowance and certificate handling; excludes VAT and income tax.
 
