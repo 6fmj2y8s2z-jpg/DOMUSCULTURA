@@ -93,6 +93,17 @@ const concepts = [
   ['20-soft-geometry','Soft Geometry','Lifestyle merch / capsule collaboration',svg(`
     <rect x="70" y="100" width="400" height="400" rx="200" fill="${green}"/><circle cx="430" cy="300" r="200" fill="${pink}" opacity=".88"/><rect x="380" y="100" width="250" height="400" rx="125" fill="${red}" opacity=".84"/>
     <text x="685" y="285" fill="${ink}" font-family="${sans}" font-size="108" font-weight="700">DOMUS</text><text x="685" y="410" fill="${ink}" font-family="${serif}" font-size="122" font-style="italic">Cultura</text>`, 'Domus Cultura — Soft Geometry')],
+  ['21-vivid-house','Vivid House','Primary campaign identity / merch / poster / tote',svg(`
+    <rect x="55" y="80" width="440" height="440" rx="220" fill="#FFE600"/>
+    <polygon points="95,525 360,75 545,75 280,525" fill="#F04435"/>
+    <circle cx="470" cy="300" r="205" fill="#FF4F87" opacity=".92"/>
+    <circle cx="155" cy="145" r="48" fill="#23C96F"/>
+    <rect x="435" y="80" width="710" height="440" fill="${ink}"/>
+    <g fill="${cream}" font-family="${condensed}" font-weight="700" font-size="157" letter-spacing="-3">
+      <text x="490" y="285">DOMUS</text><text x="490" y="455">CULTURA</text>
+    </g>
+    <rect x="730" y="115" width="22" height="365" fill="#FFE600"/><rect x="1072" y="115" width="22" height="365" fill="#FFE600"/>
+    <text x="85" y="565" fill="${ink}" font-family="${mono}" font-size="26" font-weight="700" letter-spacing="6">ART LIVES AMONG US</text>`, 'Domus Cultura — Vivid House')],
 ];
 
 const cards = [];

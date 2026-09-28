@@ -31,6 +31,11 @@ The SVG files remain resolution-independent. Their live text uses macOS system t
 | 18 | Mirror | Art fair, reversible print and experimental merch |
 | 19 | Word Circle | Sticker, cap patch and ceramic base mark |
 | 20 | Soft Geometry | Lifestyle merch and capsule collaborations |
+| 21 | Vivid House | Hybrid primary campaign identity, poster and merchandise |
+
+### 21 / Vivid House
+
+This hybrid combines the stacked authority of 01, the stencil interruptions of 10, the constructivist geometry of 13 and the softer overlapping forms of 20. Its dominant vibrant yellow is supported by saturated red, pink and a small green counterpoint. Use the full-colour version for campaigns, apparel and packaging; prepare a simplified one-colour production variant before embroidery.
 
 ## Production note
 
