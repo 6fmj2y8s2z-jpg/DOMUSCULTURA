@@ -1,0 +1,140 @@
+/* Domus Cultura / collector editorial finish. Shared layer; no layout or content rewrites. */
+:root{--luxe-ink:#090a08;--luxe-paper:#f7f7f2;--luxe-green:#173a2a;--luxe-acid:#c6d834;--luxe-line:rgba(247,247,242,.27);--luxe-shadow:0 22px 54px rgba(0,0,0,.18);--luxe-ease-out:cubic-bezier(.23,1,.32,1);--luxe-ease-in-out:cubic-bezier(.77,0,.175,1)}
+html{scroll-behavior:smooth;scrollbar-color:var(--luxe-green) var(--luxe-paper);scrollbar-width:thin}::selection{background:var(--luxe-acid);color:var(--luxe-ink)}::-webkit-scrollbar{width:10px;height:10px}::-webkit-scrollbar-track{background:var(--luxe-paper)}::-webkit-scrollbar-thumb{background:var(--luxe-green);border:3px solid var(--luxe-paper)}
+body{font-synthesis:none;text-rendering:optimizeLegibility;-webkit-font-smoothing:antialiased}a{transition:color .24s ease,opacity .24s ease,background-color .24s ease,border-color .24s ease}a:focus-visible,button:focus-visible,input:focus-visible,select:focus-visible,textarea:focus-visible{outline:2px solid var(--luxe-acid)!important;outline-offset:4px}
+/* Shared mastheads feel cut from the same house stationery. */
+.editorial-header,.portal-header,body>header{box-shadow:0 1px 0 rgba(247,247,242,.16);letter-spacing:.01em;animation:dc-masthead-in .58s var(--luxe-ease-out) both}.editorial-header .editorial-logo,.portal-logo,.logo{font-weight:700}.editorial-nav a,.portal-nav a,header nav a{position:relative;text-underline-offset:6px}.editorial-nav a:not(.is-current):hover,.portal-nav a:hover,header nav a:hover{color:var(--luxe-acid);opacity:1}.channel-strip,.notice{letter-spacing:.08em}
+/* Photography is handled like an edition: paper edge, depth, and quiet optical movement. */
+.page-hero figure,.art-grid figure,.article-lead-image figure,.merch-hero-study,.edition-rotation__print{box-shadow:var(--luxe-shadow)}.page-hero figure img,.feature-card img,.art-grid img,.article-lead-image img,.merch-launch-grid .product-views img{transition:transform .7s var(--luxe-ease-out),filter .5s ease}.feature-card a,.art-grid figure,.merch-hero-study,.merch-launch-grid .product-views{overflow:hidden}.feature-card img,.art-grid img{box-shadow:inset 0 0 0 1px rgba(9,10,8,.1)}
+/* Interfaces stay quiet, exact and luxuriously legible. */
+.button-link,.button,.shopify-checkout,.production-link,.open-call a,.newsletter button,.faq-contact a{letter-spacing:.075em!important}.button-link:hover,.button:hover,.shopify-checkout:hover,.production-link:hover,.open-call a:hover{background-color:var(--luxe-acid)!important;color:var(--luxe-ink)!important;border-color:var(--luxe-acid)!important}.feature-card,.ranked-list a,.event-card,.merch-product-list article{transition:transform .28s var(--luxe-ease-out),border-color .28s ease,background-color .28s ease}
+/* Commerce remains functional but gains an unframed magazine-object finish. */
+.commerce-page .commerce-header,.shop-page header{backdrop-filter:blur(14px);-webkit-backdrop-filter:blur(14px)}.commerce-page .commerce-breadcrumb,.shop-page .notice{border-bottom-color:rgba(247,247,242,.22)}.merch-page-rebuild .merch-hero-study,.merch-page-rebuild .merch-feature-media{box-shadow:0 24px 64px rgba(0,0,0,.3)}.merch-page-rebuild .merch-launch-grid .product-views img{box-shadow:0 16px 34px rgba(0,0,0,.24)}
+/* Live editorial feeds are held to the same paper-and-ink standard. */
+.journal-live-feed__frame,.edition-rotation__stage{box-shadow:0 24px 60px rgba(0,0,0,.24)}
+/* A page arrives like an edition being placed in the room: copy first, image second. */
+.page-hero .page-hero-copy,.fine-art-hero>div,.commerce-hero>.commerce-copy,.merch-hero>div{animation:dc-copy-in .74s var(--luxe-ease-out) both}.page-hero figure,.fine-art-hero figure,.commerce-hero>.commerce-image,.merch-hero-study{animation:dc-image-in .94s var(--luxe-ease-out) .12s both;transform-origin:50% 48%}
+@keyframes dc-masthead-in{from{opacity:0;transform:translate3d(0,-8px,0)}to{opacity:1;transform:translate3d(0,0,0)}}@keyframes dc-copy-in{from{opacity:0;transform:translate3d(0,24px,0)}to{opacity:1;transform:translate3d(0,0,0)}}@keyframes dc-image-in{from{opacity:0;transform:translate3d(0,3%,0) scale(.982)}to{opacity:1;transform:translate3d(0,0,0) scale(1)}}
+@media (hover:hover) and (pointer:fine){.feature-card:hover,.ranked-list a:hover,.event-card:hover{transform:translate3d(0,-3px,0)}.feature-card:hover img,.art-grid figure:hover img{transform:scale(1.018)}.page-hero figure:hover img,.fine-art-hero figure:hover img,.commerce-hero>.commerce-image:hover img,.merch-hero-study:hover img{transform:scale(1.025);filter:contrast(1.05)}.journal-live-feed__latest img{transition:transform .7s var(--luxe-ease-out),opacity .45s ease}.journal-live-feed__latest:hover img{transform:scale(1.012)}}
+@media (prefers-reduced-motion:reduce){html{scroll-behavior:auto}.editorial-header,.portal-header,body>header,.page-hero .page-hero-copy,.fine-art-hero>div,.commerce-hero>.commerce-copy,.merch-hero>div,.page-hero figure,.fine-art-hero figure,.commerce-hero>.commerce-image,.merch-hero-study{animation:dc-reduced-fade .2s ease both;transform:none}*,*:before,*:after{transition-duration:.01ms!important;animation-duration:.01ms!important;animation-iteration-count:1!important}}@keyframes dc-reduced-fade{from{opacity:.01}to{opacity:1}}
+@media(max-width:820px){.editorial-header,.portal-header,body>header{backdrop-filter:none;-webkit-backdrop-filter:none}}
+
+/* Cinematic pacing: content crosses the viewport like a sequence of physical prints. */
+.cinematic-motion [data-cinematic-reveal]{opacity:0;transform:translate3d(0,28px,0) scale(.992);transition:opacity .74s var(--luxe-ease-out) var(--cinematic-delay,0ms),transform .94s var(--luxe-ease-out) var(--cinematic-delay,0ms);will-change:transform,opacity}.cinematic-motion [data-cinematic-reveal].is-in-frame{opacity:1;transform:translate3d(0,0,0) scale(1)}
+.cinematic-motion .feature-card[data-cinematic-reveal],.cinematic-motion .art-grid figure[data-cinematic-reveal],.cinematic-motion .merch-launch-grid article[data-cinematic-reveal]{transform:translate3d(0,18px,0) scale(.996)}.cinematic-motion .feature-card[data-cinematic-reveal].is-in-frame,.cinematic-motion .art-grid figure[data-cinematic-reveal].is-in-frame,.cinematic-motion .merch-launch-grid article[data-cinematic-reveal].is-in-frame{transform:translate3d(0,0,0) scale(1)}
+@media (prefers-reduced-motion:reduce){.cinematic-motion [data-cinematic-reveal],.cinematic-motion [data-cinematic-reveal].is-in-frame{opacity:1;transform:none;transition:opacity .2s ease}}
+
+/* Gallery-plane depth is reserved for the work itself, never for commerce controls. */
+@media (hover:hover) and (pointer:fine){.dc-gallery-plane{transform-style:preserve-3d;backface-visibility:hidden;transition:transform .42s var(--luxe-ease-out),box-shadow .42s var(--luxe-ease-out);will-change:transform}.dc-gallery-plane.is-tilting{transition-duration:.16s}.dc-gallery-plane:hover{box-shadow:0 30px 72px rgba(0,0,0,.28)}}
+@media (prefers-reduced-motion:reduce){.dc-gallery-plane{transform:none!important;transition:none!important}}
+
+/* Cinema, translated for Domus: title cards, edition frames and the photograph as the scene.
+   This is deliberately a house treatment—not a reproduction of another studio's identity. */
+:root{--luxe-night:#0c0d0b;--luxe-ink-wash:rgba(9,10,8,.74);--luxe-green-light:#9bb77a;--luxe-acid-deep:#b8cd19;--luxe-paper-muted:#e8e8e0}
+body{background-color:var(--luxe-night)}
+.channel-strip,.notice{background:var(--luxe-paper-muted);color:var(--luxe-ink)}
+.channel-strip a,.notice a{color:inherit}
+.page-hero,.fine-art-hero,.commerce-hero,.merch-hero{position:relative}
+.page-hero figure,.fine-art-hero figure,.commerce-hero>.commerce-image,.merch-hero-study,.edition-rotation__print{position:relative;background:var(--luxe-night);isolation:isolate}
+.page-hero figure::after,.fine-art-hero figure::after,.commerce-hero>.commerce-image::after,.merch-hero-study::after,.edition-rotation__print::after{content:"";position:absolute;inset:0;z-index:2;pointer-events:none;box-shadow:inset 0 0 0 1px rgba(247,247,242,.34),inset 0 0 0 10px rgba(9,10,8,.035)}
+.page-hero figure img,.fine-art-hero figure img,.commerce-hero>.commerce-image img,.merch-hero-study img,.edition-rotation__print img{display:block;filter:contrast(1.025) saturate(.94)}
+.page-hero figcaption,.fine-art-hero figcaption,.commerce-hero figcaption,.merch-hero-study figcaption{position:relative;z-index:3;letter-spacing:.09em;text-transform:uppercase}
+.page-hero .eyebrow,.fine-art-hero .eyebrow,.commerce-hero .eyebrow,.merch-hero .eyebrow,.section-label{color:var(--luxe-green-light);letter-spacing:.12em}
+.page-hero h1,.fine-art-hero h1,.commerce-hero h1,.merch-hero h1{letter-spacing:-.065em;text-wrap:balance}
+.page-hero h1 em,.fine-art-hero h1 em,.commerce-hero h1 em,.merch-hero h1 em{color:var(--luxe-green-light);font-style:italic}
+.section-head{position:relative}
+.section-head::before{content:"";display:block;width:100%;height:1px;margin-bottom:1.4rem;background:currentColor;opacity:.26}
+.ranked-list a,.merch-product-list article{background-image:linear-gradient(90deg,rgba(155,183,122,.08),transparent 46%)}
+.ranked-list a b,.ranked-list a span,.merch-product-list .product-number{color:var(--luxe-acid-deep)}
+.sound-player{background:var(--luxe-ink);box-shadow:0 22px 58px rgba(0,0,0,.34)}
+.journal-live-feed__latest,.art-grid figure,.feature-card,.merch-launch-grid article{position:relative}
+.journal-live-feed__latest::after,.art-grid figure::after,.feature-card::after,.merch-launch-grid article::after{content:"";position:absolute;inset:0;pointer-events:none;box-shadow:inset 0 0 0 1px rgba(9,10,8,.16);opacity:.82}
+@media (hover:hover) and (pointer:fine){.page-hero figure:hover img,.fine-art-hero figure:hover img,.commerce-hero>.commerce-image:hover img,.merch-hero-study:hover img{transform:scale(1.012);filter:contrast(1.06) saturate(.98)}.ranked-list a:hover,.merch-product-list article:hover{background-color:rgba(155,183,122,.09)}}
+@media(max-width:820px){.section-head::before{margin-bottom:1rem}.page-hero h1,.fine-art-hero h1,.commerce-hero h1,.merch-hero h1{letter-spacing:-.045em}}
+
+/* The retail room carries the same house language: a quiet masthead, title-card copy,
+   generous image space and a single green-yellow signal for decisions. */
+.retail-header,.retail-footer{background:var(--luxe-paper);color:var(--luxe-ink);border-color:rgba(9,10,8,.26)}
+.retail-header{box-shadow:0 1px 0 rgba(9,10,8,.09)}
+.retail-header nav a,.retail-header .language-switcher button{letter-spacing:.09em}
+.retail-header nav a.is-current,.retail-header nav a:hover,.retail-header .language-switcher button.is-active{border-color:var(--luxe-green);color:var(--luxe-green)}
+.shop-campaign{background:var(--luxe-night);color:var(--luxe-paper)}
+.shop-campaign>div{background-image:radial-gradient(circle at 9% 12%,rgba(155,183,122,.14),transparent 31%)}
+.shop-campaign figure{background:var(--luxe-paper);box-shadow:inset 0 0 0 1px rgba(9,10,8,.18)}
+.shop-campaign figure::after,.shop-editorial figure::after{content:"";position:absolute;inset:0;pointer-events:none;box-shadow:inset 0 0 0 1px rgba(247,247,242,.28)}
+.shop-campaign figure,.shop-editorial figure{position:relative;overflow:hidden}
+.shop-campaign figcaption{letter-spacing:.1em}
+.catalogue-head{background:var(--luxe-paper);position:relative}
+.catalogue-head::before{content:"";position:absolute;top:0;left:4vw;right:4vw;height:1px;background:var(--luxe-ink);opacity:.24}
+.shop-categories button.is-selected,.shop-categories button:hover{background:var(--luxe-green);color:var(--luxe-paper)}
+.catalogue-status{background:var(--luxe-paper-muted);color:var(--luxe-ink)}
+.shop-grid{background:var(--luxe-ink)}
+.shop-product{background:var(--luxe-paper)}
+.shop-product img{filter:grayscale(.16) contrast(1.025)}
+.shop-product a:hover img{filter:grayscale(0) contrast(1.05)}
+.shop-product b{color:var(--luxe-green)}
+.shop-editorial{background:var(--luxe-green)}
+.shop-editorial img{filter:grayscale(.35) contrast(1.06)}
+.retail-faq,.contact-rail{background:var(--luxe-paper)}
+
+/* Calls for artists use the same gallery materials rather than a separate neon campaign. */
+.submissions-page{--paper:var(--luxe-paper);--ink:var(--luxe-night);--acid:var(--luxe-acid);--clay:var(--luxe-green);--violet:var(--luxe-green-light);--cobalt:var(--luxe-green);--cyan:var(--luxe-paper-muted)}
+.submission-notice{background:var(--luxe-acid);letter-spacing:.11em}
+.submission-header,.submission-footer{border-color:rgba(247,247,242,.3)}
+.submission-hero{background:radial-gradient(circle at 82% 12%,rgba(155,183,122,.15),transparent 32%)}
+.submission-hero h1 em{color:var(--luxe-green-light)}
+.submission-criteria{background:var(--luxe-green);background-image:none;color:var(--luxe-paper)}
+.submission-criteria .submission-index{background:var(--luxe-acid);border-color:var(--luxe-night);box-shadow:4px 4px 0 var(--luxe-night);transform:none}
+.submission-criteria h2{text-shadow:none}
+.criteria-grid{background:var(--luxe-night)}
+.criteria-grid article,.criteria-grid article:nth-child(n){background:var(--luxe-paper)!important;color:var(--luxe-ink)!important;border-color:rgba(9,10,8,.44)}
+.criteria-grid article:nth-child(even){background:var(--luxe-paper-muted)!important}
+#artist-submission-form input:not([type=checkbox]),#artist-submission-form select,#artist-submission-form textarea{border-color:rgba(247,247,242,.48)}
+#artist-submission-form input:focus,#artist-submission-form select:focus,#artist-submission-form textarea:focus{border-color:var(--luxe-acid)}
+.submission-action button{border-color:var(--luxe-acid);background:var(--luxe-paper);color:var(--luxe-ink);box-shadow:5px 5px 0 var(--luxe-acid)}
+
+/* Lower-page surfaces close with the same architectural edge as the index. */
+.editorial-footer,.retail-footer,.submission-footer{position:relative}
+.editorial-footer::before,.retail-footer::before,.submission-footer::before{content:"";position:absolute;top:0;left:0;width:clamp(56px,9vw,150px);height:2px;background:var(--luxe-acid)}
+@media(max-width:820px){.catalogue-head::before{left:6vw;right:6vw}.shop-campaign>div{background-image:none}.submission-hero{background-image:none}}
+
+/* One house, one system: the Index is the source for every public room. */
+body:not(.house-index){background:var(--luxe-ink);color:var(--luxe-paper)}
+.editorial-header,.commerce-page>header,.fine-art-page .portal-header,.retail-header,.submission-header{min-height:88px;padding:20px 3.4vw 17px;display:flex;align-items:flex-start;justify-content:space-between;gap:30px;background:var(--luxe-ink);color:var(--luxe-paper);border-color:rgba(247,247,242,.44);box-shadow:none}
+.editorial-logo,.portal-logo,.commerce-page .logo,.retail-logo,.submission-logo{font:700 clamp(24px,2vw,31px)/.75 "DM Sans",sans-serif;letter-spacing:-.08em;color:var(--luxe-paper)}
+.editorial-tools,.commerce-page .header-tools,.fine-art-page .portal-tools{display:flex;align-items:flex-start;gap:clamp(18px,2.7vw,48px);padding-top:6px}
+.editorial-nav,.commerce-page .header-tools nav,.fine-art-page .portal-tools nav{display:flex;align-items:center;gap:clamp(16px,2.1vw,34px);font:500 12px/1 "DM Sans",sans-serif;text-transform:uppercase;letter-spacing:.02em}
+.editorial-nav a,.commerce-page .header-tools nav a,.fine-art-page .portal-tools nav a,.retail-header nav a{color:var(--luxe-paper);opacity:.72;border-color:transparent!important}
+.editorial-nav a:hover,.editorial-nav a.is-current,.commerce-page .header-tools nav a:hover,.commerce-page .header-tools nav a.is-current,.fine-art-page .portal-tools nav a:hover,.fine-art-page .portal-tools nav a.is-current,.retail-header nav a:hover,.retail-header nav a.is-current{color:var(--luxe-acid)!important;opacity:1;border-bottom:1px solid var(--luxe-acid)!important}
+.language-switcher button{color:var(--luxe-paper)!important;font:500 10px/1 "DM Mono",monospace!important;letter-spacing:.06em!important}
+.language-switcher button.is-active{color:var(--luxe-acid)!important}
+.channel-strip,.retail-notice,.submission-notice{min-height:34px;display:flex;align-items:center;justify-content:center;background:var(--luxe-acid);color:var(--luxe-ink)}
+
+/* Every primary hero uses the Index's two-room composition: text as the threshold, image as the room. */
+.page-hero,.fine-art-hero,.commerce-hero{grid-template-columns:minmax(0,1.08fr) minmax(300px,.92fr);gap:clamp(35px,4.7vw,92px);padding-left:3.4vw;padding-right:3.4vw;background:var(--luxe-ink);color:var(--luxe-paper)}
+.page-hero .page-hero-copy,.fine-art-hero>div,.commerce-hero>.commerce-copy{align-self:center;max-width:720px}
+.page-hero h1,.fine-art-hero h1,.commerce-hero h1,.merch-hero h1,.shop-campaign h1,.submission-hero h1{font-family:"DM Sans",sans-serif!important;font-weight:700!important;line-height:.76!important;letter-spacing:-.08em!important}
+.page-hero h1 em,.fine-art-hero h1 em,.commerce-hero h1 em,.merch-hero h1 em,.shop-campaign h1 em,.submission-hero h1 em,.section-title em,.edition-panel h2 em,.shop-editorial h2 em,.catalogue-head h2 em{font-family:"DM Sans",sans-serif!important;font-style:italic!important;font-weight:500!important;color:var(--luxe-green-light)}
+.page-hero figure,.fine-art-hero figure,.commerce-hero>.commerce-image{padding:15px;background:var(--luxe-paper);box-shadow:20px 20px 0 var(--luxe-green)}
+.page-hero figcaption,.fine-art-hero figcaption,.commerce-hero figcaption{color:var(--luxe-ink)}
+.page-hero figure::after,.fine-art-hero figure::after,.commerce-hero>.commerce-image::after{box-shadow:inset 0 0 0 1px rgba(9,10,8,.25)}
+
+/* Lower rooms inherit the Index's dark, typographic architecture rather than a separate campaign look. */
+.sounds-page main>section,.art-page main>section,.journal-page main>section,.events-page main>section,.about-page main>section,.standards-page main>section,.work-page main>section,.fine-art-page main>section{background-color:var(--luxe-ink);color:var(--luxe-paper)}
+.sounds-page .section-head,.art-page .section-head,.journal-page .section-head,.events-page .section-head,.about-page .section-head,.standards-page .section-head,.work-page .section-head{border-color:rgba(247,247,242,.44)}
+.section-title,.edition-panel h2,.shop-editorial h2,.catalogue-head h2{font-family:"DM Sans",sans-serif!important;font-weight:700!important;line-height:.8!important;letter-spacing:-.08em!important}
+.feature-card,.art-grid figure,.ranked-list a,.event-card{background-color:var(--luxe-night);color:var(--luxe-paper);border-color:rgba(247,247,242,.28)}
+.feature-card figcaption,.art-grid figcaption{color:var(--luxe-paper)}
+.editorial-footer,.retail-footer,.submission-footer{background:var(--luxe-ink);color:var(--luxe-paper);border-color:rgba(247,247,242,.44)}
+
+/* Commerce is still legible as a shop, but it sits inside the same black-and-paper house. */
+.retail-header{align-items:flex-start}.retail-header nav{padding-top:6px;gap:clamp(16px,2.1vw,34px)}
+.shop-catalogue,.retail-faq,.contact-rail{background:var(--luxe-ink);color:var(--luxe-paper)}
+.catalogue-head,.catalogue-status{background:var(--luxe-ink);color:var(--luxe-paper);border-color:rgba(247,247,242,.32)}
+.catalogue-head::before{background:var(--luxe-paper);opacity:.34}
+.shop-categories{border-color:rgba(247,247,242,.32)}
+.shop-categories button{color:var(--luxe-paper);border-color:rgba(247,247,242,.32)}
+.shop-product{background:var(--luxe-paper);color:var(--luxe-ink)}
+.shop-editorial{background:var(--luxe-green)}
+
+@media(max-width:820px){.editorial-header,.commerce-page>header,.fine-art-page .portal-header,.retail-header,.submission-header{padding:18px 6vw;min-height:0}.editorial-tools,.commerce-page .header-tools,.fine-art-page .portal-tools{padding-top:0;gap:12px;align-items:flex-end}.editorial-nav,.commerce-page .header-tools nav,.fine-art-page .portal-tools nav{max-width:250px;justify-content:flex-end;flex-wrap:wrap;gap:10px 16px;font-size:10px}.page-hero,.fine-art-hero,.commerce-hero{grid-template-columns:1fr;padding-left:6vw;padding-right:6vw}.page-hero figure,.fine-art-hero figure,.commerce-hero>.commerce-image{padding:8px;box-shadow:10px 10px 0 var(--luxe-green)}.retail-header nav{order:3;width:100%;padding-top:0}.retail-header .language-switcher{display:none}}

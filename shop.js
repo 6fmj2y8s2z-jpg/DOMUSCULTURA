@@ -49,16 +49,24 @@ const cartItems = document.querySelector('[data-cart-items]');
 const cartCount = document.querySelector('[data-cart-count]');
 const cartTotal = document.querySelector('[data-cart-total]');
 const mockItems = [];
+let cartOpener = null;
+
+document.querySelectorAll('a[href^="mailto:hello@domuscultura.ch"]').forEach((link) => {
+  link.href = link.href.replace('hello@domuscultura.ch', 'info@domuscultura.com');
+  link.textContent = link.textContent.replace('hello@domuscultura.ch', 'info@domuscultura.com');
+});
 
 const translate = (text) => window.domusTranslate ? window.domusTranslate(text) : text;
 const money = (amount) => `CHF ${amount}`;
 
 function openCart() {
   if (!cart || !cartBackdrop) return;
+  cartOpener = document.activeElement instanceof HTMLElement ? document.activeElement : cartTrigger;
   cart.hidden = false;
   cartBackdrop.hidden = false;
   cartTrigger?.setAttribute('aria-expanded', 'true');
   document.body.classList.add('cart-is-open');
+  requestAnimationFrame(() => cart.querySelector('[data-close-cart]')?.focus());
 }
 
 function closeCart() {
@@ -67,6 +75,8 @@ function closeCart() {
   cartBackdrop.hidden = true;
   cartTrigger?.setAttribute('aria-expanded', 'false');
   document.body.classList.remove('cart-is-open');
+  if (cartOpener instanceof HTMLElement) cartOpener.focus();
+  cartOpener = null;
 }
 
 function renderCart() {
@@ -128,5 +138,18 @@ cartItems?.addEventListener('click', (event) => {
 });
 document.addEventListener('keydown', (event) => {
   if (event.key === 'Escape') closeCart();
+  if (event.key !== 'Tab' || !cart || cart.hidden) return;
+  const focusable = [...cart.querySelectorAll('button:not([disabled]), [href], select, input')]
+    .filter((element) => element instanceof HTMLElement && !element.hidden);
+  if (!focusable.length) return;
+  const first = focusable[0];
+  const last = focusable[focusable.length - 1];
+  if (event.shiftKey && document.activeElement === first) {
+    event.preventDefault();
+    last.focus();
+  } else if (!event.shiftKey && document.activeElement === last) {
+    event.preventDefault();
+    first.focus();
+  }
 });
 window.addEventListener('domus-language-change', renderCart);

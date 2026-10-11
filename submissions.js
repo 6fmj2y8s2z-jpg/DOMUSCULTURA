@@ -27,5 +27,5 @@ submissionForm?.addEventListener('submit', (event) => {
 
   const readyMessage = 'Your email application is ready. Review it in your email app, then send.';
   submissionStatus.textContent = window.domusTranslate ? window.domusTranslate(readyMessage) : readyMessage;
-  window.location.href = `mailto:hello@domuscultura.ch?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
+  window.location.href = `mailto:info@domuscultura.com?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
 });

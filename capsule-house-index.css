@@ -1,0 +1,39 @@
+/* Capsule 01 follows the House Index visual system. */
+.merch-page-rebuild{--ink:#090a08;--paper:#f7f7f2;--green:#173a2a;--acid:#c6d834;background:var(--ink);color:var(--paper)}
+.merch-page-rebuild ::selection{background:var(--acid);color:var(--ink)}
+.merch-page-rebuild .notice{background:var(--acid);color:var(--ink);font-weight:500}
+.merch-page-rebuild header,.merch-page-rebuild .commerce-breadcrumb{background:var(--ink);color:var(--paper);border-color:rgba(247,247,242,.42)}
+.merch-page-rebuild header .logo,.merch-page-rebuild header nav a,.merch-page-rebuild .commerce-breadcrumb a{color:var(--paper)}
+.merch-page-rebuild header nav a.is-current,.merch-page-rebuild header nav a:hover{color:var(--acid)}
+.merch-page-rebuild .language-switcher button{color:rgba(247,247,242,.7)}
+.merch-page-rebuild .language-switcher button.is-active{color:var(--acid)}
+.merch-page-rebuild .shopify-store-state{color:var(--paper);border-color:rgba(247,247,242,.5)}
+.merch-page-rebuild .merch-hero{background:var(--ink)}
+.merch-page-rebuild .merch-hero>div>p:not(.num),.merch-page-rebuild .merch-hero-notes li{color:rgba(247,247,242,.82)}
+.merch-page-rebuild .merch-hero-study{background:var(--paper);box-shadow:0 24px 62px rgba(23,58,42,.44)}
+.merch-page-rebuild .merch-hero-study:before{background:linear-gradient(90deg,rgba(23,58,42,.78),rgba(9,10,8,.92)),url("assets/instagram/urban-structure.jpg") center/cover;opacity:.72}
+.merch-page-rebuild .merch-launch{background:var(--ink);color:var(--paper)}
+.merch-page-rebuild .commerce-section-head>p:last-child,.merch-page-rebuild .merch-product-list article>strong{color:rgba(247,247,242,.72)}
+.merch-page-rebuild .merch-product-list{border-color:rgba(247,247,242,.42)}
+.merch-page-rebuild .merch-product-list article{border-color:rgba(247,247,242,.42);background:#0d110d}
+.merch-page-rebuild .merch-product-list article>b{color:var(--acid)}
+.merch-page-rebuild .merch-product-list h3{color:var(--paper)}
+.merch-page-rebuild .merch-launch-grid{background:var(--ink)}
+.merch-page-rebuild .merch-launch-grid article{border-color:rgba(247,247,242,.34)}
+.merch-page-rebuild .merch-launch-grid article:before{opacity:.2}
+.merch-page-rebuild .merch-launch-grid .product-views{background:rgba(23,58,42,.18);border-color:rgba(247,247,242,.4)}
+.merch-page-rebuild .merch-launch-grid .product-views img{border-color:var(--paper);box-shadow:0 18px 40px rgba(0,0,0,.4)}
+.merch-page-rebuild .merch-launch-grid article>div:last-child span,.merch-page-rebuild .merch-launch-grid article>div:last-child small{color:var(--acid)}
+.merch-page-rebuild .gallery-object-views .site-wordmark-sample{color:var(--paper)}
+.merch-page-rebuild .merch-product-focus{background:var(--green)}
+.merch-page-rebuild .merch-feature-media{background:var(--paper);box-shadow:0 24px 56px rgba(0,0,0,.35)}
+.merch-page-rebuild .second-wave{background:#0f1711;color:var(--paper)}
+.merch-page-rebuild .second-wave ol{border-color:rgba(247,247,242,.4)}
+.merch-page-rebuild .second-wave li{border-color:rgba(247,247,242,.4)}
+.merch-page-rebuild .second-wave li b{color:var(--acid)}
+.merch-page-rebuild .production-note{background:var(--ink);color:var(--paper)}
+.merch-page-rebuild .production-note .production-link{color:var(--acid)}
+.merch-page-rebuild .commerce-next{background:var(--paper);color:var(--ink)}
+.merch-page-rebuild footer{background:var(--ink);color:var(--paper);border-color:rgba(247,247,242,.42)}
+.merch-page-rebuild footer a:focus-visible,.merch-page-rebuild a:focus-visible{outline:2px solid var(--acid);outline-offset:4px}
+@media(max-width:620px){.merch-page-rebuild .merch-hero-study{box-shadow:0 15px 36px rgba(23,58,42,.42)}.merch-page-rebuild .merch-product-list article{border-color:rgba(247,247,242,.35)}}

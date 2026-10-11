@@ -1,0 +1,27 @@
+/* White paper edge for the collector-print presentation. */
+.fine-art-hero figure {
+  padding: clamp(18px, 2.1vw, 34px);
+  background: #fff;
+}
+
+.fine-art-grid {
+  gap: 2px;
+  padding: 2px;
+  background: #d6d4cd;
+}
+
+.fine-art-grid a {
+  padding: clamp(16px, 1.7vw, 28px);
+  background: #d6d4cd;
+}
+
+.fine-art-grid img {
+  padding: clamp(12px, 1.35vw, 22px);
+  background: #fff;
+  box-shadow: 0 10px 24px rgba(16, 17, 15, .14);
+}
+
+@media (max-width: 560px) {
+  .fine-art-grid a { padding: 14px; }
+  .fine-art-grid img { padding: 12px; }
+}

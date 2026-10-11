@@ -1,0 +1,8 @@
+{
+  "name": "domus-cultura-storefront",
+  "private": true,
+  "description": "Local tooling for the Domus Cultura Shopify storefront connection.",
+  "devDependencies": {
+    "@shopify/cli": "latest"
+  }
+}
