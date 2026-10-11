@@ -1,0 +1,184 @@
+/* Domus Cultura / shared house art direction
+   A restrained gallery system shared by every public-facing page. */
+:root {
+  --domus-black: #090b0a;
+  --domus-charcoal: #111512;
+  --domus-green: #123827;
+  --domus-green-deep: #092619;
+  --domus-chartreuse: #c8d92c;
+  --domus-paper: #f5f1e8;
+  --domus-white: #fffef8;
+  --domus-line: rgba(245, 241, 232, .27);
+  --domus-muted: rgba(245, 241, 232, .68);
+}
+
+body:not(.portal-home) {
+  color: var(--domus-paper);
+  background:
+    radial-gradient(85rem 42rem at 92% -12%, rgba(28, 80, 52, .32), transparent 58%),
+    linear-gradient(145deg, var(--domus-black), var(--domus-charcoal) 62%, #0b1710);
+}
+
+body:not(.portal-home) main {
+  background: transparent;
+}
+
+body:not(.portal-home) .editorial-header,
+body:not(.portal-home) header:not(.house-header):not(.submission-header) {
+  background: rgba(9, 11, 10, .92);
+  border-color: var(--domus-line);
+  backdrop-filter: blur(18px) saturate(115%);
+}
+
+body:not(.portal-home) .editorial-logo,
+body:not(.portal-home) .logo,
+body:not(.portal-home) .submission-logo {
+  color: var(--domus-white);
+}
+
+body:not(.portal-home) .editorial-nav a,
+body:not(.portal-home) header nav a,
+body:not(.portal-home) .language-switcher button,
+body:not(.portal-home) .header-tools > button {
+  color: var(--domus-paper);
+}
+
+body:not(.portal-home) .editorial-nav a.is-current,
+body:not(.portal-home) .editorial-nav a:hover,
+body:not(.portal-home) header nav a.is-current,
+body:not(.portal-home) header nav a:hover,
+body:not(.portal-home) .language-switcher button.is-current {
+  color: var(--domus-chartreuse);
+  border-color: var(--domus-chartreuse);
+}
+
+body:not(.portal-home) .channel-strip,
+body:not(.portal-home) .notice,
+body:not(.portal-home) .submission-notice {
+  color: var(--domus-black);
+  background: var(--domus-chartreuse);
+  border-color: var(--domus-chartreuse);
+}
+
+body:not(.portal-home) .channel-strip a { color: var(--domus-black); }
+
+body:not(.portal-home) .page-hero,
+body:not(.portal-home) .commerce-hero,
+body:not(.portal-home) .submission-hero {
+  border-color: var(--domus-line);
+}
+
+body:not(.portal-home) .page-hero-copy h1,
+body:not(.portal-home) .commerce-copy h1,
+body:not(.portal-home) .article-hero h1,
+body:not(.portal-home) .submission-hero h1,
+body:not(.portal-home) h1,
+body:not(.portal-home) h2,
+body:not(.portal-home) h3 { color: var(--domus-paper); }
+
+body:not(.portal-home) h1 em,
+body:not(.portal-home) h2 em,
+body:not(.portal-home) .section-title em { color: var(--domus-chartreuse); }
+
+body:not(.portal-home) .page-hero-copy p,
+body:not(.portal-home) .section-head p,
+body:not(.portal-home) .article-deck,
+body:not(.portal-home) .commerce-lede,
+body:not(.portal-home) p { color: var(--domus-muted); }
+
+body:not(.portal-home) .page-hero figure,
+body:not(.portal-home) .article-lead-image,
+body:not(.portal-home) .commerce-image,
+body:not(.portal-home) .feature-card,
+body:not(.portal-home) .art-grid figure,
+body:not(.portal-home) .view-grid figure {
+  background: var(--domus-paper);
+  box-shadow: 16px 16px 0 rgba(18, 56, 39, .72), 0 22px 48px rgba(0, 0, 0, .35);
+}
+
+body:not(.portal-home) img { filter: saturate(.93) contrast(1.04); }
+
+body:not(.portal-home) figcaption,
+body:not(.portal-home) .story-meta,
+body:not(.portal-home) .num,
+body:not(.portal-home) .section-label,
+body:not(.portal-home) .eyebrow { color: var(--domus-chartreuse); }
+
+body:not(.portal-home) section:not(.page-hero):not(.commerce-hero):not(.submission-hero) {
+  border-color: var(--domus-line);
+}
+
+body:not(.portal-home) .edition-panel,
+body:not(.portal-home) .about-making,
+body:not(.portal-home) .standards-test,
+body:not(.portal-home) .edition-policy,
+body:not(.portal-home) .open-call,
+body:not(.portal-home) .article-next {
+  color: var(--domus-paper);
+  background: linear-gradient(135deg, var(--domus-green), var(--domus-green-deep));
+}
+
+body:not(.portal-home) .edition-panel p,
+body:not(.portal-home) .about-making p,
+body:not(.portal-home) .standards-test p,
+body:not(.portal-home) .edition-policy p,
+body:not(.portal-home) .open-call p,
+body:not(.portal-home) .article-next p { color: rgba(255, 254, 248, .78); }
+
+body:not(.portal-home) .button-link,
+body:not(.portal-home) .open-call a,
+body:not(.portal-home) .commerce-next a,
+body:not(.portal-home) .submission-action button {
+  color: var(--domus-black);
+  background: var(--domus-chartreuse);
+  border-color: var(--domus-chartreuse);
+}
+
+body:not(.portal-home) .button-link:hover,
+body:not(.portal-home) .open-call a:hover,
+body:not(.portal-home) .commerce-next a:hover,
+body:not(.portal-home) .submission-action button:hover {
+  color: var(--domus-paper);
+  background: transparent;
+  border-color: var(--domus-paper);
+}
+
+body:not(.portal-home) .ranked-list a,
+body:not(.portal-home) .about-principles article,
+body:not(.portal-home) .about-resident-list article,
+body:not(.portal-home) .standards-spec-list article,
+body:not(.portal-home) .criteria-grid article,
+body:not(.portal-home) .purchase-mock,
+body:not(.portal-home) .edition-rotation,
+body:not(.portal-home) .commerce-next a {
+  border-color: var(--domus-line);
+  background-color: rgba(255, 254, 248, .035);
+}
+
+body:not(.portal-home) input,
+body:not(.portal-home) textarea,
+body:not(.portal-home) select {
+  color: var(--domus-paper);
+  background: rgba(255, 254, 248, .05);
+  border-color: var(--domus-line);
+}
+
+body:not(.portal-home) .editorial-footer,
+body:not(.portal-home) footer {
+  color: var(--domus-muted);
+  background: var(--domus-black);
+  border-color: var(--domus-line);
+}
+
+body:not(.portal-home) .editorial-footer a,
+body:not(.portal-home) footer a { color: var(--domus-paper); }
+body:not(.portal-home) .editorial-footer a:hover,
+body:not(.portal-home) footer a:hover { color: var(--domus-chartreuse); }
+
+::selection { color: var(--domus-black); background: var(--domus-chartreuse); }
+
+@media (max-width: 760px) {
+  body:not(.portal-home) .page-hero figure,
+  body:not(.portal-home) .article-lead-image,
+  body:not(.portal-home) .commerce-image { box-shadow: 8px 8px 0 rgba(18, 56, 39, .72); }
+}
