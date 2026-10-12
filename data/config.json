@@ -1,0 +1,15 @@
+{
+  "identity_line": "Photography, sound and artists' studios, from Switzerland.",
+  "instagram_url": "https://www.instagram.com/domuscultura/",
+  "soundcloud_url": "https://soundcloud.com/juice-plus-sounds",
+  "contact_email": "hello@domuscultura.ch",
+  "domain": "domuscultura.ch",
+  "forms_endpoint": "/api/subscribe",
+  "analytics_snippet": "[CONFIRM: PLAUSIBLE_OR_UMAMI_SNIPPET]",
+  "shipping": {
+    "made_to_order": true,
+    "production_delivery_time": "[CONFIRM: PRODUCTION_AND_DELIVERY_TIME]",
+    "safe_christmas_cutoff": "12 December [CONFIRM: YEAR_AND_DESTINATION]",
+    "damage_claim_window": "7 days from delivery with order number and two photographs"
+  }
+}

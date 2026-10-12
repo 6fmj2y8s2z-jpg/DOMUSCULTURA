@@ -1,0 +1,19 @@
+[
+  {
+    "slug": "looking-up",
+    "title": "Looking Up",
+    "artist": "Ben Taleb",
+    "status": "launch",
+    "checkout_url": null,
+    "image": "assets/fine-art/whitewall-collection/glass-facade.webp",
+    "process": "Fine Art pigment print laminated on Alu-Dibond",
+    "paper": "[CONFIRM: HAHNEMUHLE_PHOTO_RAG_OR_FINEART_BARYTA]",
+    "border": "[CONFIRM: WHITE_BORDER]",
+    "mounting": "[CONFIRM: MOUNTING]",
+    "variants": [
+      { "sku": "looking-up-30x40-unframed", "label": "30 × 40 cm / unframed", "edition_size": null, "remaining": null, "tranches": [] },
+      { "sku": "looking-up-45x60-unframed", "label": "45 × 60 cm / unframed", "edition_size": null, "remaining": null, "tranches": [] },
+      { "sku": "looking-up-60x80-unframed", "label": "60 × 80 cm / unframed", "edition_size": null, "remaining": null, "tranches": [] }
+    ]
+  }
+]

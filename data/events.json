@@ -1,0 +1,15 @@
+{
+  "domus_programme": [
+    {
+      "title": "Domus Cultura — Opening Session",
+      "date": "[CONFIRM: OPENING_SESSION_DATE]",
+      "location": "[CONFIRM: OPENING_SESSION_LOCATION]",
+      "status": "interest-list"
+    }
+  ],
+  "external_events": [
+    { "title": "mudac — Magie et Design", "city": "Lausanne", "date": "2026-11-05", "status": "verify-before-publishing" },
+    { "title": "Jean Planque collection", "city": "Vevey", "date": "2026-11-06", "status": "verify-before-publishing" },
+    { "title": "Art Genève", "city": "Geneva", "date": "2027-01-28..31", "status": "verify-before-publishing" }
+  ]
+}

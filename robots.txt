@@ -1,0 +1,4 @@
+User-agent: *
+Disallow: /
+
+# Remove the rule above when domuscultura.ch is ready for public indexing.
