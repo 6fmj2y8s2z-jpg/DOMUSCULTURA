@@ -3,6 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="theme-color" content="#090a08" />
   <meta name="description" content="Photography, sound and artists' studios, from Switzerland." />
   <title>Domus Cultura — Index</title>
   <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -17,6 +18,7 @@
   <script src="cinematic-motion.js?v=20261010" defer></script>
 </head>
 <body class="portal-home house-index">
+  <a class="dc-skip-link" href="#house-index-main">Skip to content</a>
   <header class="house-header">
     <a class="house-logo" href="index.html" aria-label="Domus Cultura home">DOMUS<br />CULTURA</a>
     <nav class="house-meta" aria-label="Utility navigation">
@@ -26,7 +28,7 @@
       <a href="shop.html">Shop</a>
     </nav>
   </header>
-  <main class="house-stage">
+  <main class="house-stage" id="house-index-main">
     <nav class="house-rooms" aria-label="Enter Domus Cultura">
       <a href="art.html"><span>Art</span><i aria-hidden="true">→</i></a>
       <a href="journal.html"><span>Journal</span><i aria-hidden="true">→</i></a>
@@ -38,10 +40,10 @@
     </nav>
     <figure class="house-portrait" data-house-art>
       <div class="house-portrait-stack" aria-live="polite">
-        <img class="house-art-image is-active" src="assets/house-index/index-city-glass.jpg" alt="Glass city architecture, a Domus Cultura photographic work" />
-        <img class="house-art-image" src="assets/house-index/index-night-structure.jpg" alt="Night architecture, a Domus Cultura photographic work" />
-        <img class="house-art-image" src="assets/house-index/index-night-kiosk.jpg" alt="Night kiosk architecture, a Domus Cultura photographic work" />
-        <img class="house-art-image" src="assets/house-index/index-passage.jpg" alt="Architectural passage, a Domus Cultura photographic work" />
+        <img class="house-art-image is-active" src="assets/house-index/index-city-glass.jpg" alt="Glass city architecture, a Domus Cultura photographic work" width="2030" height="2600" fetchpriority="high" />
+        <img class="house-art-image" src="assets/house-index/index-night-structure.jpg" alt="Night architecture, a Domus Cultura photographic work" loading="lazy" />
+        <img class="house-art-image" src="assets/house-index/index-night-kiosk.jpg" alt="Night kiosk architecture, a Domus Cultura photographic work" loading="lazy" />
+        <img class="house-art-image" src="assets/house-index/index-passage.jpg" alt="Architectural passage, a Domus Cultura photographic work" loading="lazy" />
       </div>
     </figure>
   </main>
@@ -57,7 +59,7 @@
     <a href="https://www.instagram.com/domuscultura/" target="_blank" rel="noopener noreferrer">@domuscultura ↗</a>
     <form class="house-signup domus-form" data-domus-form="newsletter" method="post">
       <label class="sr-only" for="home-newsletter-email">Email address</label>
-      <input id="home-newsletter-email" name="email" type="email" autocomplete="email" placeholder="Email for releases" required />
+      <input id="home-newsletter-email" name="email" type="email" autocomplete="email" spellcheck="false" placeholder="Email for releases…" required />
       <input type="hidden" name="interest" value="Newsletter" />
       <label class="form-consent"><input name="consent" type="checkbox" required /> I agree to receive release updates.</label>
       <button type="submit">Stay in the loop</button>

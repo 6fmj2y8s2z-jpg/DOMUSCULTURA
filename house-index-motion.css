@@ -5,11 +5,9 @@
 .house-rooms a{opacity:0;transform:translateY(18%);animation:house-room-in .76s var(--house-ease-out) both}
 .house-rooms a:nth-child(1){animation-delay:.08s}.house-rooms a:nth-child(2){animation-delay:.15s}.house-rooms a:nth-child(3){animation-delay:.22s}.house-rooms a:nth-child(4){animation-delay:.29s}.house-rooms a:nth-child(5){animation-delay:.36s}
 .house-portrait{opacity:0;transform:translateY(3%) scale(.975);animation:house-portrait-in .9s var(--house-ease-out) .16s both}
-.house-portrait img{animation:house-image-drift 12s ease-in-out 1.08s infinite alternate;transform-origin:52% 45%}
+.house-portrait img{animation:none;transform-origin:52% 45%}
 @keyframes house-fade-in{from{opacity:0}to{opacity:1}}
 @keyframes house-room-in{from{opacity:0;transform:translateY(18%)}to{opacity:1;transform:translateY(0)}}
 @keyframes house-portrait-in{from{opacity:0;transform:translateY(3%) scale(.975)}to{opacity:1;transform:translateY(0) scale(1)}}
-@keyframes house-image-drift{from{transform:scale(1.005) translate3d(0,0,0)}to{transform:scale(1.035) translate3d(-.8%,-.45%,0)}}
 @media(hover:hover) and (pointer:fine){.house-portrait{transition:transform .32s var(--house-ease-out),box-shadow .32s var(--house-ease-out)}.house-portrait:hover{transform:translateY(-5px);box-shadow:0 29px 55px rgba(0,0,0,.34)}.house-rooms a i{transition:transform .22s ease}.house-rooms a:hover i{transform:translateX(10px)}}
-@media(prefers-reduced-motion:reduce){.house-header,.house-footer,.house-rooms a,.house-portrait,.house-portrait img{animation:house-reduced-fade .2s ease both;transform:none}.house-footer{animation-delay:0}.house-rooms a:nth-child(n),.house-portrait{animation-delay:0}.house-portrait img{animation:none}.house-portrait:hover{transform:none}}
-@keyframes house-reduced-fade{from{opacity:.01}to{opacity:1}}
+@media(prefers-reduced-motion:reduce){.house-header,.house-footer,.house-rooms a,.house-portrait{animation:none;transform:none;opacity:1}.house-footer{animation-delay:0}.house-rooms a:nth-child(n),.house-portrait{animation-delay:0}.house-portrait img{animation:none}.house-portrait:hover{transform:none}}
