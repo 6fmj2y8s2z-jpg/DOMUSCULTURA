@@ -15,12 +15,12 @@
   ];
 
   const price = (value) => Number.isFinite(value) ? `CHF ${value}` : '[CONFIRM: PRICE_CHF]';
-  const card = (product) => {
+  const card = (product, index) => {
     const image = product.images?.[0] || 'assets/merch-mockups/domus-essentials-objects-v2.png';
     const hover = product.images?.[1] || image;
     const href = product.checkout_url || 'contact.html#waitlist';
     const action = product.checkout_url ? 'Shop now ↗' : 'Join the waitlist ↗';
-    return `<article class="shop-product" data-category="${product.category}">
+    return `<article class="shop-product${index === 0 ? ' shop-product-feature' : ''}" data-category="${product.category}">
       <a href="${href}" aria-label="${product.name}">
         <img src="${image}" data-hover-src="${hover}" alt="${product.alt || `${product.name} [CONFIRM: ALT_TEXT]`}" loading="lazy" />
         <div><span>${product.category === 'apparel' ? 'Apparel' : 'Object'} / launch</span><h3>${product.name}</h3>
@@ -31,7 +31,15 @@
   const render = (products) => {
     const launch = products.filter((product) => product.status === 'launch');
     grid.innerHTML = launch.map(card).join('');
-    if (status) status.textContent = `${launch.length} pieces shown`;
+    if (status) status.textContent = `${launch.length} pieces / current release selection`;
+    document.querySelectorAll('[data-filter]').forEach((control) => {
+      const category = control.dataset.filter;
+      const count = category === 'all'
+        ? launch.length
+        : launch.filter((product) => product.category === category).length;
+      const counter = control.querySelector('i');
+      if (counter) counter.textContent = String(count).padStart(2, '0');
+    });
     grid.querySelectorAll('img[data-hover-src]').forEach((image) => {
       const original = image.src;
       image.addEventListener('pointerenter', () => { image.src = image.dataset.hoverSrc; });
@@ -47,7 +55,7 @@
           if (visible) count += 1;
         });
         document.querySelectorAll('[data-filter]').forEach((item) => item.classList.toggle('is-selected', item === control));
-        if (status) status.textContent = `${count} ${count === 1 ? 'piece' : 'pieces'} shown`;
+        if (status) status.textContent = `${count} ${count === 1 ? 'piece' : 'pieces'} / current release selection`;
       };
     });
   };

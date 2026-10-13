@@ -165,3 +165,41 @@ input:disabled,button:disabled{cursor:not-allowed;opacity:.54}
 @media (prefers-reduced-motion:no-preference){.cinematic-motion [data-cinematic-reveal]{transition-duration:var(--dc-duration-reveal),var(--dc-duration-reveal);transform:translate3d(0,18px,0) scale(.996)}.cinematic-motion [data-cinematic-reveal].is-in-frame{transform:translate3d(0,0,0) scale(1)}}
 @media(max-width:820px){html{scroll-padding-top:84px}.page-hero h1,.fine-art-hero h1,.commerce-hero h1,.merch-hero h1,.shop-campaign h1,.submission-hero h1,.section-title,.edition-panel h2,.shop-editorial h2,.catalogue-head h2{letter-spacing:-.032em!important}.page-hero p,.fine-art-hero p,.commerce-hero p,.merch-hero p,.shop-campaign p,.submission-hero p{max-width:40ch}}
 @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}.dc-skip-link,.feature-card::after,.art-grid figure::after,.merch-launch-grid article::after{transition:none!important}}
+
+/* The Drop Room: editorial-commerce density inspired by culture publishing,
+   translated into Domus's quieter architecture rather than another identity. */
+.shop-page .retail-notice{letter-spacing:.12em;background:var(--luxe-acid);color:var(--luxe-ink)}
+.shop-page .retail-header{position:relative;z-index:3;min-height:86px;align-items:flex-start}
+.shop-channel-rail{display:flex;align-items:center;gap:0;min-height:44px;overflow:auto;background:var(--luxe-paper);color:var(--luxe-ink);border-bottom:1px solid rgba(9,10,8,.28);font:500 10px/1 "DM Mono",monospace;letter-spacing:.045em;text-transform:uppercase;white-space:nowrap}
+.shop-channel-rail a{display:inline-flex;align-items:center;align-self:stretch;padding:0 clamp(16px,2.1vw,34px);color:inherit;border-right:1px solid rgba(9,10,8,.24);text-decoration:none;transition:color var(--dc-duration-fast) ease,background-color var(--dc-duration-fast) ease}
+.shop-channel-rail a:hover,.shop-channel-rail a:focus-visible,.shop-channel-rail a.is-current{background:var(--luxe-ink);color:var(--luxe-paper)}
+.shop-channel-rail span{margin-left:auto;padding:0 clamp(18px,3vw,44px);color:rgba(9,10,8,.66)}
+.shop-page .shop-campaign{min-height:min(780px,calc(100vh - 174px));background:var(--luxe-ink)}
+.shop-page .shop-campaign>div{position:relative;isolation:isolate;background:var(--luxe-ink)}
+.shop-page .shop-campaign>div::before{content:"CAPSULE 01";position:absolute;right:4vw;bottom:3vw;z-index:-1;color:rgba(247,247,242,.055);font:700 clamp(58px,10vw,180px)/.72 "DM Sans",sans-serif;letter-spacing:-.055em;pointer-events:none}
+.shop-page .shop-campaign a{border-color:rgba(247,247,242,.72);font-weight:500;letter-spacing:.09em}
+.shop-page .shop-campaign a:hover{background:var(--luxe-acid);border-color:var(--luxe-acid);color:var(--luxe-ink)}
+.shop-page .catalogue-head{grid-template-columns:.74fr 1.25fr .86fr;padding-top:clamp(78px,10vw,146px);padding-bottom:clamp(42px,5vw,74px)}
+.shop-page .catalogue-head .retail-kicker{align-self:start;color:var(--luxe-green-light)}
+.shop-page .catalogue-status{display:flex;align-items:center;justify-content:space-between;min-height:40px;letter-spacing:.09em}
+.shop-page .catalogue-status::after{content:"SELECT A CATEGORY";color:var(--dc-muted);font-size:9px}
+.shop-page .shop-categories button{min-width:0;min-height:76px;font-size:clamp(16px,1.45vw,21px);transition:background-color var(--dc-duration-fast) ease,color var(--dc-duration-fast) ease}
+.shop-page .shop-categories button.is-selected{background:var(--luxe-acid);color:var(--luxe-ink)}
+.shop-page .shop-categories button:hover:not(.is-selected){background:var(--luxe-green);color:var(--luxe-paper)}
+.shop-page .shop-grid{grid-template-columns:repeat(4,minmax(0,1fr))}
+.shop-page .shop-product{position:relative}
+.shop-page .shop-product-feature{grid-column:span 2;grid-row:span 2}
+.shop-page .shop-product div{min-height:176px;padding:22px 22px 26px}
+.shop-page .shop-product h3{letter-spacing:-.04em}
+.shop-page .shop-product span{color:var(--luxe-green);font-weight:500}
+.shop-page .shop-product b{display:flex;justify-content:space-between;gap:10px;border-top:1px solid rgba(9,10,8,.18);padding-top:15px;color:var(--luxe-ink)}
+.shop-page .shop-product b::before{content:"RELEASE RECORD";color:var(--luxe-green);font-weight:500}
+.shop-page .shop-product-feature h3{font-size:clamp(30px,3.8vw,61px);line-height:.86}
+.shop-page .shop-product img{filter:grayscale(.38) contrast(1.04)}
+.shop-page .shop-product a:hover img{filter:grayscale(0) contrast(1.05);transform:scale(1.009)}
+.shop-page .shop-editorial{min-height:620px}
+.shop-page .shop-editorial>div{position:relative}
+.shop-page .shop-editorial>div::after{content:"01";position:absolute;right:6vw;bottom:5vw;color:rgba(247,247,242,.16);font:700 clamp(80px,15vw,240px)/.7 "DM Sans",sans-serif;letter-spacing:-.07em}
+.shop-page .shop-editorial p,.shop-page .shop-editorial a,.shop-page .shop-editorial h2{position:relative;z-index:1}
+@media(max-width:900px){.shop-channel-rail span{display:none}.shop-page .catalogue-head{grid-template-columns:1fr}.shop-page .shop-product-feature{grid-column:span 2;grid-row:auto}.shop-page .shop-editorial{min-height:0}}
+@media(max-width:560px){.shop-channel-rail{min-height:40px}.shop-channel-rail a{padding:0 18px}.shop-page .shop-categories button{min-height:64px}.shop-page .catalogue-status::after{display:none}.shop-page .shop-grid{grid-template-columns:1fr}.shop-page .shop-product-feature{grid-column:auto}.shop-page .shop-product-feature h3{font-size:38px}}

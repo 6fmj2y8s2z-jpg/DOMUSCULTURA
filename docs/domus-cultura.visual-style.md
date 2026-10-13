@@ -120,6 +120,11 @@ landing page is an index; every other page is a room cut from the same material.
 Craft comes from restraint—high contrast, exact paper edges, calm pacing and
 real work given enough space—not from visual ornament.
 
+For commerce, take the useful lesson from culture publishing: present a capsule
+as an edit with a clear release desk, product categories and adjacent editorial
+context. Keep the pace and hierarchy, not another publication's typography,
+logo or visual identity.
+
 ## Implementation Notes
 
 Shared tokens and finish rules live in `luxe-finish.css`. Keep future pages on
