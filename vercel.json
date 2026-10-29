@@ -1,6 +1,7 @@
 {
   "version": 2,
   "routes": [
+    { "src": "/api/(.*)", "dest": "/api/$1" },
     { "src": "/maintenance.html", "dest": "/maintenance.html" },
     { "src": "/(.*)", "dest": "/maintenance.html" }
   ]
