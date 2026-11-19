@@ -1,8 +1,8 @@
-// Pre-launch gate: keep every public route on the holding page until launch.
+// Public launch: the historical maintenance middleware is deliberately dormant.
 export const config = {
-  matcher: ['/((?!maintenance\\.html$).*)']
+  matcher: ['/__domus-maintenance-gate-disabled__']
 };
 
-export default function maintenanceGate(request) {
-  return Response.redirect(new URL('/maintenance.html', request.url), 307);
+export default function maintenanceGate() {
+  return undefined;
 }
